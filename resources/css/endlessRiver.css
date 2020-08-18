@@ -1,0 +1,71 @@
+/* liScroll styles */
+
+.tickercontainer { /* the outer div with the black border */
+	min-height: 25px;
+	margin: 0; 
+	padding: 0;
+	overflow: hidden; 
+	text-align: center;
+	background:#3c686b;
+}
+/* that serves as a mask. so you get a sort of padding both left and right */
+.tickercontainer .mask { 
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height:25px;
+	overflow:hidden;
+}
+ul.newsticker { /* that's your list */
+position: relative;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow:hidden;
+
+}
+/* important: display inline gives incorrect results when you check for elem's width */
+ul.newsticker li {
+	float: left; 
+	margin:0px;
+	font-size:12px;
+	padding: 0px 25px 0px 0px; color:#fff;
+	 font-family: 'digital_sans_ef_medium';
+	 
+}
+ul.newsticker li big {
+	 color:#ff0000; font-size:16px;font-family: 'OpenSansSemibold_0'; display:inline-block; margin-right:20px;padding-top: 3px;
+}
+
+ul.newsticker li a.news_contact {
+    background: #0dbae8 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 10px; margin:0px 0px 0px 20px;
+    position: relative;
+}
+ul.newsticker li a.news_contact:hover {
+    background: #50b848 none repeat scroll 0 0;
+}
+
+
+ul.er-controls{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+}
+ul.er-controls > li{
+	display: inline-block;
+	padding: 0 10px;
+	background: #f0f0f0;
+	margin: 5px;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+}
+ul.er-controls > li:hover{
+	background: #f5f5f5;
+	cursor: pointer;
+}
