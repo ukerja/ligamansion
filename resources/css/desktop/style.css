@@ -1252,8 +1252,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', end
 }
 
 .promotion_main_right {
-    float: right;
-    width: 78%;
+    float: left;
+    width: 100%;
     padding: 10px;
     background: #0c0c0c;
 }

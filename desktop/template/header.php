@@ -23,6 +23,9 @@
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
+	
+	<script src="../../resources/js/jquery.min.js"></script>
+	
 </head>
 <body>
     <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
@@ -81,7 +84,7 @@
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkpromosi">
-                    <a class="nav-link" href="#" style="text-align: center">
+                    <a class="nav-link" href="promosi.php" style="text-align: center">
                         <i class="fa fa-gift" style="font-size: 25px;"></i><br />
                         PROMOSI
                     </a>
