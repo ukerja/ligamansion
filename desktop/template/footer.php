@@ -1,255 +1,3 @@
-﻿<!DOCTYPE html>
-
-<html>
-<head>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-    <meta name="viewport" content="initial-scale=0.30">
-
-    <title>FORZA88</title>
-
-    <meta name="description" content="FORZA88 memberikan bonus terbaik disetiap game" />
-    <meta name="theme-color" content="Red" />
-    <meta name="language" content="id-ID" />
-    <meta name="categories" content="website" />
-    <meta name="robots" content="INDEX,FOLLOW" />
-
-    <!--<link rel="shortcut icon" type="image/x-icon" href="https://api2-fz8.tr8games.com/images/favicon_96c00afb-2339-4071-aabc-5685e6905423_1597744944117.png?1597744944117" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
-    <link href="../resources/css/desktop/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="../resources/css/desktop/style.css" rel="stylesheet" type="text/css" />
-    <link href="../resources/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link type="text/css" rel="stylesheet" href="../resources/css/endlessRiver.css" />
-    <link href="../resources/css/jquery.range.css" rel="stylesheet" />
-    <link href="../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
-    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-
-    <script type="text/javascript">
-        //<![CDATA[
-        var theForm = document.forms['aspnetForm'];
-        if (!theForm) {
-            theForm = document.aspnetForm;
-        }
-        function __doPostBack(eventTarget, eventArgument) {
-            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                theForm.__EVENTTARGET.value = eventTarget;
-                theForm.__EVENTARGUMENT.value = eventArgument;
-                theForm.submit();
-            }
-        }
-        //]]>
-    </script>
-    <div>
-        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FBD85D7B" />
-        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WRfcLqahIQWqPBjl5MkZNqCcvBNensJ5ey4+E2WenKER27xt8pnPl6SwElmIkRa7jAgCEzuudRWoJE67aRz2/9P1d4wk+x/3o0oNDONFnXX4VMQ3imFBMKLyjYGmLYOnyvfOykDQvOWhTFCujehOId8mQpYmn63nCrwP3ZQLgCg=" />
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img src="../resources/images/desktop/logo.png" alt="" style='width:80%' />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" style="text-align: center">
-                        <i class="fa fa-home" style="font-size: 25px;"></i><br />
-                        BERANDA
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="register" style="text-align: center">
-                        <i class="fa fa-gamepad" style="font-size: 25px;"></i><br />
-                        REGISTER
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="deposit" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        DEPOSIT
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="withdraw" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        WITHDRAW
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" style="text-align: center">
-                        <i class="fa fa-gift" style="font-size: 25px;"></i><br />
-                        PROMOSI
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="games" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        GAMES
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="games">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="poker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        POKER
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="poker">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="togel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        TOGEL
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="togel">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="livescrore" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
-                        LIVESCORE
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--===========================banner===========================-->
-    <div class="banner">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_3045f459-f899-4ab1-93df-21297284e3b0_1596014218580.jpg?1596014218580" title="Welcome to FORZA 88 5" alt="Welcome to FORZA 88 5" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_466d27a6-3d1b-40fd-a3b7-30f687d42932_1595582929580.jpg?1595582929580" title="Welcome to FORZA88 7" alt="Welcome to FORZA88 7" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_05447c22-8b64-4419-9770-7ed553b58c54_1595850047480.jpg?1595850047480" title="Welcome to FORZA 88 4" alt="Welcome to FORZA 88 4" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_684bc552-ccd7-4b4e-8e69-de444f1c63a6_1595845587380.jpg?1595845587380" title="Welcome to FORZA88 3" alt="WELCOME to forza88 3" />
-                </div>
-
-
-
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_44a5b62d-c533-437c-978b-fc0808d877f6_1595272403963.png?1595272403963" title="Welcome to FORZA 88 2" alt="Welcome to FORZA 88 2" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_aae4dc69-c015-4660-8f21-1beb9d0926d8_1595272435870.png?1595272435870" title="Welcome to FORZA88 1" alt="Welcome to FORZA88 1" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_b71c415f-24d7-4f0a-b206-70d1fea8ba1a_1596698289447.jpeg?1596698289447" title="Welcome to FORZA88 8" alt="Welcome to FORZA88 8" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api2-fz8.tr8games.com/images/id_cbd_aa6670fa-05c8-46a8-85c2-3f427f20e4bc_1595845022593.jpg?1595845022593" title="Welcome to FORZA88 6" alt="Welcome to FORZA88 6" />
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    <div class="notice">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="notice_box">
-                        <div class="notice_left">
-                            <ul>
-                                <li><span></span></li>
-                                <li>
-                                    Pemberitahuan
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="notice_right">
-                            <ul id="ctl00_ContentPlaceHolder1_myUl">
-                                <li>Welcome to FORZA88</li>
-                            </ul>
-                        </div>
-                        <div class="notice_text">
-                            <p>
-                                <span id="ctl00_ContentPlaceHolder1_lblCurrentDate">18/08/2020 (Sel) 17:02 (GMT+07)</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--===========================banner===========================-->
-
-    <div class="mega_jackpot">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mega_jackpot_main">
-                        <div id="megaJackpot" class="mega_jackpot_main_left">
-                            <span class="jackpot_currency">USD</span> <span class="bike" id="progressive_jackpot"></span>
-                        </div>
-
-                        <div class="mega_jackpot_main_right">
-                            <div class="jackpot_timer">
-                                <div class="jackpot_top">
-                                    <h6>
-                                        SINGAPORE 4D
-                                    </h6>
-                                </div>
-                                <div class="jackpot_mid">
-                                    <div class="jackpot_mid2">
-                                        <div class="jackpot_mid3">
-                                            <img src="../resources/images/desktop/jackpot_right.png" />
-                                        </div>
-                                        <div class="jackpot_mid4">
-                                            <span class="lottery-result-number-8"></span> <span class="lottery-result-number-6"></span> <span class="lottery-result-number-3"></span> <span class="lottery-result-number-2"></span>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Live Draw
-                                        &nbsp;&nbsp;Mgg, 16-08-2020 12:00
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--===========================START: Footer ===========================-->
 
     <div class="footer">
         <div class="container">
@@ -336,7 +84,7 @@
                                     <span class="myTooltip" data-ztip-title="Senin - Jumat online00:00 - 00:00 WIB Sabtu online00:00 - 00: 00 WIB Minggu online00:00 - 00: 00 WIB "><li class="greensidebar"><img src="https://api2-fz8.tr8games.com/images/BNI_3d30334c-d871-46fb-80b3-0fcb12f99b87_1594918317970.png?1594918317970"></li></span>
                                     <span class="myTooltip" data-ztip-title="Senin - Jumat online06:00 - 22:00 WIB Sabtu online06:00 - 22: 00 WIB Minggu online06:00 - 22: 00 WIB "><li class="greensidebar"><img src="https://api2-fz8.tr8games.com/images/BRI_a458ab91-91a3-49ac-98b3-1bfc5d1966bd_1594917499597.png?1594917499597"></li></span>
                                     <span class="myTooltip" data-ztip-title="Senin - Jumat online06:00 - 22:00 WIB Sabtu online06:00 - 22: 00 WIB Minggu online06:00 - 22: 00 WIB "><li class="greensidebar"><img src="https://api2-fz8.tr8games.com/images/Mandiri_ec4427ff-2e6e-4657-a2fe-b3702bc15e7c_1594917537427.png?1594917537427"></li></span>
-                                    <li><img src="../resources/images/desktop/General_Bank.png"></img></li>
+                                    <li><img src="../../resources/images/desktop/General_Bank.png"></img></li>
                                 </ul>
                             </div>
                         </div>
@@ -601,9 +349,9 @@
             </div>
         </div>
     </div>
-    <script src="../resources/js/jquery.min.js"></script>
-    <script src="../resources/js/bootstrap.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../resources/js/endlessRiver.js"></script>
+    <script src="../../resources/js/jquery.min.js"></script>
+    <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../resources/js/endlessRiver.js"></script>
     <script>
         $('.carousel').carousel({
             interval: 2000
@@ -762,7 +510,7 @@
         });
     </script>
 
-    <script src="../resources/js/new_jackpotjs.js"></script>
+    <script src="../../resources/js/new_jackpotjs.js"></script>
     <script>
         $(document).ready(function () {
             var ticker = new Ticker({ info: 2, casino: 'winforfun88', currency: 'usd', root_url: 'https://tickers.playtech.com/' });
@@ -777,7 +525,7 @@
         $("#nav li.navigation1").addClass("active");
     </script>
 
-    <script src="../resources/build/js/countrySelect.js"></script>
+    <script src="../../resources/build/js/countrySelect.js"></script>
     <script>
         var currentlang = getCookie("language");
         var setCountries = ['id', 'gb'];
@@ -843,8 +591,8 @@
     </script>
 
 
-    <link href="../resources/css/ztip.css" rel="stylesheet" type="text/css">
-    <script src="../resources/js/ztip.js"></script>
+    <link href="../../resources/css/ztip.css" rel="stylesheet" type="text/css">
+    <script src="../../resources/js/ztip.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $(".myTooltip").zTip();
@@ -857,9 +605,9 @@
         });
     </script>
 
-    <link href="../resources/css/jquery.lineProgressbar.css" rel="stylesheet" type="text/css">
-    <script src="../resources/js/jquery.lineProgressbar.js"></script>
-    <script src="../resources/js/jquery.lineProgressbar1.js"></script>
+    <link href="../../resources/css/jquery.lineProgressbar.css" rel="stylesheet" type="text/css">
+    <script src="../../resources/js/jquery.lineProgressbar.js"></script>
+    <script src="../../resources/js/jquery.lineProgressbar1.js"></script>
     <script>
         var cnt = 0;
         $(window).scroll(function () {
@@ -885,8 +633,8 @@
 
 
 
-    <link rel="stylesheet" href="../resources/css/jquery.scrolling-tabs.css">
-    <script src="../resources/js/jquery.scrolling-tabs.js"></script>
+    <link rel="stylesheet" href="../../resources/css/jquery.scrolling-tabs.css">
+    <script src="../../resources/js/jquery.scrolling-tabs.js"></script>
 
     <script>
         (function ($) {
@@ -960,7 +708,7 @@
     </script>-->
 
 
-    <script type="text/javascript" src="../resources/js/jquery.easy-ticker.js"></script>
+    <script type="text/javascript" src="../../resources/js/jquery.easy-ticker.js"></script>
     <script type="text/javascript">
         var isPopup = false;
 
