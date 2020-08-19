@@ -48,7 +48,7 @@
         <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WRfcLqahIQWqPBjl5MkZNqCcvBNensJ5ey4+E2WenKER27xt8pnPl6SwElmIkRa7jAgCEzuudRWoJE67aRz2/9P1d4wk+x/3o0oNDONFnXX4VMQ3imFBMKLyjYGmLYOnyvfOykDQvOWhTFCujehOId8mQpYmn63nCrwP3ZQLgCg=" />
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index">
             <img src="../../resources/images/desktop/logo.png" alt="" style='width:80%' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,48 +56,50 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" style="text-align: center">
+                <li class="nav-item navbarlink" id="Linkindex">
+                    <a class="nav-link" href="index" style="text-align: center">
                         <i class="fa fa-home" style="font-size: 25px;"></i><br />
                         BERANDA
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="register" style="text-align: center">
-                        <i class="fa fa-gamepad" style="font-size: 25px;"></i><br />
+                <li class="nav-item navbarlink" id="Linkregister">
+                    <a class="nav-link" href="register" id="register" style="text-align: center">
+                        <i class="fa fa-user-plus" style="font-size: 25px;"></i><br />
                         REGISTER
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item navbarlink" id="Linkdeposit">
                     <a class="nav-link" href="#" id="deposit" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-money" style="font-size: 25px;"></i><br />
                         DEPOSIT
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item navbarlink" id="Linkwithdraw">
                     <a class="nav-link" href="#" id="withdraw" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-money" style="font-size: 25px;"></i><br />
                         WITHDRAW
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item navbarlink" id="Linkpromosi">
                     <a class="nav-link" href="#" style="text-align: center">
                         <i class="fa fa-gift" style="font-size: 25px;"></i><br />
                         PROMOSI
                     </a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown navbarlink" id="Linkgames">
                     <a class="nav-link dropdown-toggle" href="#" id="games" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
                         <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
                         GAMES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="games">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
+                        <a class="dropdown-item" href="#">CASINO</a>
+                        <a class="dropdown-item" href="#">SABUNG AYAM</a>
+                        <a class="dropdown-item" href="#">SLOT</a>
+                        <a class="dropdown-item" href="#">TANGKAS</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown navbarlink" id="Linkpoker">
                     <a class="nav-link dropdown-toggle" href="#" id="poker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
                         <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
                         POKER
@@ -108,7 +110,7 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown navbarlink" id="Linktogel">
                     <a class="nav-link dropdown-toggle" href="#" id="togel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
                         <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
                         TOGEL
@@ -119,7 +121,7 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item navbarlink" id="Linklivescore">
                     <a class="nav-link" href="#" id="livescrore" style="text-align: center">
                         <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
                         LIVESCORE

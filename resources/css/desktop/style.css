@@ -1495,7 +1495,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', end
     background: #00ff23;
     background: -moz-linear-gradient(top, #00ff23 0%, #009d16 100%);
     background: -webkit-linear-gradient(top, #00ff23 0%, #009d16 100%);
-    background: linear-gradient(to bottom, #00ff23 0%, #009d16 100%);
+    background: linear-gradient(to bottom, #ffff00 0%, #adad07 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ff23', endColorstr='#009d16', GradientType=0);
     padding: 10px 35px;
     width: 100%;
@@ -1504,7 +1504,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', end
         background: #009d16;
     background: -moz-linear-gradient(top, #009d16 0%, #00ff23 100%);
     background: -webkit-linear-gradient(top, #009d16 0%, #00ff23 100%);
-    background: linear-gradient(to bottom, #009d16 0%, #00ff23 100%);
+    background: linear-gradient(to bottom, #bdbd13 0%, #878708 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009d16', endColorstr='#00ff23', GradientType=0);
 }
 
@@ -4602,6 +4602,7 @@ font-size: 100%;padding-top: 3px;}
 .cockfight_main ul li.imagesec img {
         border: 2px solid #7d7d7d;
         width: 100%;
+		padding-bottom: 64px;
     }
 
 .cockfight_main .comingsoon {

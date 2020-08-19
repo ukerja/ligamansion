@@ -890,6 +890,38 @@
     </script>
     <noscript><a href="https://www.livechatinc.com/chat-with/11687793/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
     <!-- End of LiveChat code -->
+	<script type="text/javascript">
+	function addActiveClass(element) {
+      if (current === "") {
+        //for root url
+        if (element.attr('href').indexOf("index.html") !== -1) {
+          element.parents('.nav-item').last().addClass('active');
+          if (element.parents('.dropdown-menu').length) {
+            element.closest('.collapse').addClass('show');
+            element.addClass('active');
+          }
+        }
+      } else {
+        //for other url
+        if (element.attr('href').indexOf(current) !== -1) {
+          element.parents('.nav-item').last().addClass('active');
+          if (element.parents('.dropdown-menu').length) {
+            element.closest('.collapse').addClass('show');
+            element.addClass('active');
+          }
+          if (element.parents('.dropdown-item').length) {
+            element.addClass('active');
+          }
+        }
+      }
+    }
 
+    var current = location.pathname.split("/").slice(-1)[0].replace(/^\/|\/$/g, '');
+
+    $('.navbar-nav li a').each(function() {
+      var $this = $(this);
+      addActiveClass($this);
+    })
+	</script>
 </body>
 </html>
