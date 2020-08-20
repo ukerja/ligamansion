@@ -2341,7 +2341,7 @@ background-size: cover;
 
 /*====================== Fish Page =========================*/
 
-.fishpage_main{ position:relative; padding:0px 0px 0px 0px; background:url(../../images/desktop/fish-bg.jpg) no-repeat center top;background-size:cover;}
+.fishpage_main{ position:relative; padding:0px 0px 0px 0px; background:url(../../resources/images/desktop/fish-bg.jpg) no-repeat center top;background-size:cover;}
 
 
 .fishpage_tabbing {
