@@ -70,13 +70,13 @@
                 </li>
                 <li class="nav-item navbarlink" id="Linkdeposit">
                     <a class="nav-link" href="#" id="deposit" style="text-align: center">
-                        <i class="fa fa-money" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-hand-holding-usd" style="font-size: 25px;"></i><br />
                         DEPOSIT
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkwithdraw">
                     <a class="nav-link" href="#" id="withdraw" style="text-align: center">
-                        <i class="fa fa-money" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-wallet" style="font-size: 25px;"></i><br />
                         WITHDRAW
                     </a>
                 </li>
@@ -88,7 +88,7 @@
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linkgames">
                     <a class="nav-link dropdown-toggle" href="#" id="games" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-gamepad" style="font-size: 25px;"></i><br />
                         GAMES
                     </a>
                     <div class="dropdown-menu" aria-labelledby="games">
@@ -101,7 +101,7 @@
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linkpoker">
                     <a class="nav-link dropdown-toggle" href="#" id="poker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-gem" style="font-size: 25px;"></i><br />
                         POKER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="poker">
@@ -112,7 +112,7 @@
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linktogel">
                     <a class="nav-link dropdown-toggle" href="#" id="togel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-crosshairs" style="font-size: 25px;"></i><br />
                         TOGEL
                     </a>
                     <div class="dropdown-menu" aria-labelledby="togel">

@@ -13,7 +13,6 @@
                     </div>
                     <div class="registermain_right">
                         <div id="ctl00_ContentPlaceHolder1_pnlRegister">
-							<form>
 								<div class="registermain_right1">
 									Register
 								</div>
@@ -25,7 +24,7 @@
 										</div>
 										<div class="registermain_right2sub3">*</div>
 										<div class="registermain_right2sub4">
-											<input name="_txtFullName" type="text" maxlength="100" id="_txtFullName" class="register_inputform" placeholder="Nama Lengkap">
+											<input name="_txtFullName" type="text" maxlength="100" id="_txtFullName" class="register_inputform" placeholder="Nama Lengkap" autocomplete="off">
 										</div>
 									</div>
 
@@ -48,7 +47,7 @@
 										</div>
 										<div class="registermain_right2sub3">*</div>
 										<div class="registermain_right2sub4">
-											<input name="_txtNoWhatsApp" type="text" value="08" maxlength="20" id="_txtNoWhatsApp" class="register_inputform" placeholder="No WhatsApp">
+											<input name="_txtNoWhatsApp" type="text" value="08" maxlength="20" id="_txtNoWhatsApp" class="register_inputform" placeholder="No WhatsApp" autocomplete="off">
 											<!-- <button type="button" onclick="CopyValue()"><i class="fa fa-copy"></i></button> !-->
 											<span id="ctl00_ContentPlaceHolder1_revContactNo" style="color:Red;visibility:hidden;">Please Enter Only Numbers</span>
 										</div>
@@ -82,7 +81,7 @@
 										</div>
 										<div class="registermain_right2sub3">*</div>
 										<div class="registermain_right2sub4">
-											<input name="_txtNamaRekening" type="text" maxlength="100" id="_txtNamaRekening" class="register_inputform" placeholder="Nama Rekening">
+											<input name="_txtNamaRekening" type="text" maxlength="100" id="_txtNamaRekening" class="register_inputform" placeholder="Nama Rekening" autocomplete="off">
 										</div>
 									</div>
 									<div class="registermain_right2sub1">
@@ -91,7 +90,7 @@
 										</div>
 										<div class="registermain_right2sub3">*</div>
 										<div class="registermain_right2sub4">
-											<input name="_txtNomorRekening" type="text" maxlength="20" id="_txtNomorRekening" class="register_inputform" placeholder="Nomor Rekening">
+											<input name="_txtNomorRekening" type="text" maxlength="20" id="_txtNomorRekening" class="register_inputform" placeholder="Nomor Rekening" autocomplete="off">
 										</div>
 									</div>
 
@@ -99,7 +98,7 @@
 										<div class="registermain_right2sub2">&nbsp;</div>
 										<div class="registermain_right2sub3">&nbsp;</div>
 										<div class="registermain_right2sub4">
-											<input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="REGISTER" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnSubmit" class="btn">
+											<input type="button" name="_btnSubmit" value="REGISTER" id="_btnSubmit" class="btn">
 										</div>
 									</div>
 								</div>
@@ -111,7 +110,6 @@
 										TERMS AND CONDITIONS
 									</a>
 								</div>
-							</form>
                         </div>
 
                     </div>
@@ -123,3 +121,19 @@
 	<?php
 	include '../template/footer.php';
 	?>
+	<script type="text/javascript">
+		
+		function validasiSubmit(){
+			
+			var bol = false;
+			
+			if ($('#_txtFullName').val().replace(/\s/g, "") == '' || $('#_txtFullName').val().length == 0) {
+				alert("_txtFullName")
+			}
+		}		
+		
+        $('#_btnSubmit').click(function () {
+           validasiSubmit();
+        });
+	
+	</script>
