@@ -96,10 +96,10 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="games">
                         <a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
-                        <a class="dropdown-item" href="#">CASINO</a>
-                        <a class="dropdown-item" href="#">SABUNG AYAM</a>
-                        <a class="dropdown-item" href="#">SLOT</a>
-                        <a class="dropdown-item" href="#">TANGKAS</a>
+                        <a class="dropdown-item" href="casino.php">CASINO</a>
+                        <a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
+                        <a class="dropdown-item" href="slot.php">SLOT</a>
+                        <a class="dropdown-item" href="tangkas.php">TANGKAS</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linkpoker">
