@@ -23,6 +23,9 @@
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
+	
+	<script src="../../resources/js/jquery.min.js"></script>
+	
 </head>
 <body>
     <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
@@ -81,7 +84,7 @@
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkpromosi">
-                    <a class="nav-link" href="#" style="text-align: center">
+                    <a class="nav-link" href="promosi.php" style="text-align: center">
                         <i class="fa fa-gift" style="font-size: 25px;"></i><br />
                         PROMOSI
                     </a>
@@ -93,10 +96,10 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="games">
                         <a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
-                        <a class="dropdown-item" href="#">CASINO</a>
-                        <a class="dropdown-item" href="#">SABUNG AYAM</a>
-                        <a class="dropdown-item" href="#">SLOT</a>
-                        <a class="dropdown-item" href="#">TANGKAS</a>
+                        <a class="dropdown-item" href="casino.php">CASINO</a>
+                        <a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
+                        <a class="dropdown-item" href="slot.php">SLOT</a>
+                        <a class="dropdown-item" href="tangkas.php">TANGKAS</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linkpoker">
