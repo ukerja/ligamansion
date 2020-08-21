@@ -31,7 +31,10 @@
 <body>
 
     <div id="wrapper">
-  <div id="box">xt Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text </div>
+  <div id="box">
+	<img src="../../resources/images/desktop/24.png" style=" width: 80%; padding-left: 50px; padding-top: 20px;
+">
+</div>
 	
   <div id="square">
 	<i class="fa fa-headset" style="font-size: 25px; color: white"></i></br></br>
@@ -68,12 +71,13 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index">
-            <img src="../../resources/images/desktop/logo.png" alt="" style='width:80%' />
+            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		
+        <div class="navbar-collapse collapse" id="navbarNavDropdown" style="padding-left: 50px;">
             <ul class="navbar-nav">
                 <li class="nav-item navbarlink" id="Linkindex">
                     <a class="nav-link" href="index" style="text-align: center">

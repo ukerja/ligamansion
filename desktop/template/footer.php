@@ -5,7 +5,7 @@
                 <div class="col-md-8">
                     <div class="footer_menu">
                         <ul>
-                            <li><a onclick="openCenteredWindow('/desktop/about-us','master')">Tentang FORZA88</a></li>
+                            <li><a onclick="openCenteredWindow('/desktop/about-us','master')">Tentang LIGAMANSION</a></li>
                             <li><a onclick="openCenteredWindow('/desktop/responsible-gaming','master')">Responsible Gambling</a></li>
                             <li><a onclick="openCenteredWindow('/desktop/faq','master')">Pusat Bantuan</a></li>
                             <li><a onclick="openCenteredWindow('/desktop/terms-of-use','master')">Syarat dan Ketentuan</a></li>
@@ -15,7 +15,7 @@
                 <div class="col-md-4 border0">
                     <div class="footer_right ">
                         <p>
-                            ©2020 FORZA88. All rights reserved | 18+
+                            ©2020 LIGAMANSION. All rights reserved | 18+
                         </p>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer_btm">
-                        FORZA88
+                        LIGAMANSION
                     </div>
                 </div>
             </div>
