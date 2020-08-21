@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
     <link href="../../resources/css/desktop/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../../resources/css/desktop/style.css" rel="stylesheet" type="text/css" />
+    <link href="../../resources/css/desktop/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <link href="../../resources/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
@@ -28,6 +29,21 @@
 	
 </head>
 <body>
+
+    <div id="wrapper">
+  <div id="box">xt Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text Very long text </div>
+	
+  <div id="square">
+	<i class="fa fa-headset" style="font-size: 25px; color: white"></i></br></br>
+	<h1 class="text1">Hubungi Kami</h1>
+  </div>
+</div>
+    <!--<div class="containerHov">
+		<div>
+		  <i class="fa fa-headset" style="font-size: 25px; color: white"></i></br></br>
+		  <h1 class="text1">Hubungi Kami</h1>
+		</div>
+	 </div>!-->
     <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
     <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
 
