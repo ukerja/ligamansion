@@ -73,6 +73,9 @@
 
 												</select>
 											</div>
+											<div class="demo" style="padding-top:10px;display:none;" id="divLainnya">
+												<input name="_txtBankLainnya" type="text" maxlength="100" id="_txtBankLainnya" class="register_inputform" placeholder="Bank Lainnya" autocomplete="off">
+											</div>
 										</div>
 									</div>
 									<div class="registermain_right2sub1">
@@ -93,6 +96,8 @@
 											<input name="_txtNomorRekening" type="text" maxlength="20" id="_txtNomorRekening" class="register_inputform" placeholder="Nomor Rekening" autocomplete="off">
 										</div>
 									</div>
+									
+									<input type="file" name="attachment" id="_attachment" style="margin-top: 5px;width: 400px" hidden />
 
 									<div class="registermain_right2sub1">
 										<div class="registermain_right2sub2">&nbsp;</div>
@@ -125,15 +130,168 @@
 		
 		function validasiSubmit(){
 			
+			var okTitle, ok = "";
 			var bol = false;
+			var number = 0;
+
+			okTitle = "Warning";
+			//ok = "<ul><li>Please complete the following fields : ";
+			ok = "Silahkan Lengkapi Form Dibawah Ini : <br />";
 			
 			if ($('#_txtFullName').val().replace(/\s/g, "") == '' || $('#_txtFullName').val().length == 0) {
-				alert("_txtFullName")
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>Nama Lengkap</b> <br /> ";
+				bol = true;
+				$('#_txtFullName').addClass("is-Invalid");
+				
+				if ($('#_txtFullName').val().replace(/\s/g, "") == '') {
+					$('#_txtFullName').val("");
+				}
+			}
+			
+			if ($('#_txtEmail').val().replace(/\s/g, "") == '' || $('#_txtEmail').val().length == 0) {
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>Email</b> <br /> ";
+				bol = true;
+				$('#_txtEmail').addClass("is-Invalid");
+				
+				if ($('#_txtEmail').val().replace(/\s/g, "") == '') {
+					$('#_txtEmail').val("");
+				}
+			}
+			
+			if ($('#_txtNoWhatsApp').val().replace(/\s/g, "") == '' || $('#_txtNoWhatsApp').val().length == 0 || $('#_txtNoWhatsApp').val().length <= 2) {
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>No WhatsApp</b> <br /> ";
+				bol = true;
+				$('#_txtNoWhatsApp').addClass("is-Invalid");
+				
+				if ($('#_txtNoWhatsApp').val().replace(/\s/g, "") == '') {
+					$('#_txtNoWhatsApp').val("");
+				}
+			}
+			
+			if ($('#_ddlBank').val().replace(/\s/g, "") == '' || $('#_ddlBank').val().length == 0) {
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>Bank</b> <br /> ";
+				bol = true;
+				$('#_ddlBank').addClass("is-Invalid");
+				
+				if ($('#_ddlBank').val().replace(/\s/g, "") == '') {
+					$('#_ddlBank').val("");
+				}
+			}
+						
+			if ($('#_ddlBank').val() == 'LAINNYA' ) {				
+				if ($('#_txtBankLainnya').val().replace(/\s/g, "") == '' || $('#_txtBankLainnya').val().length == 0) {
+					bol = true;
+					number++;
+					ok += " " + number + ".  <b>Bank</b> <br /> ";
+					bol = true;
+					$('#_txtBankLainnya').addClass("is-Invalid");
+					
+					if ($('#_txtBankLainnya').val().replace(/\s/g, "") == '') {
+						$('#_txtBankLainnya').val("");
+					}
+				}
+			}
+			
+			if ($('#_txtNamaRekening').val().replace(/\s/g, "") == '' || $('#_txtNamaRekening').val().length == 0) {
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>Nama Rekening</b> <br /> ";
+				bol = true;
+				$('#_txtNamaRekening').addClass("is-Invalid");
+				
+				if ($('#_txtNamaRekening').val().replace(/\s/g, "") == '') {
+					$('#_txtNamaRekening').val("");
+				}
+			}
+			
+			if ($('#_txtNomorRekening').val().replace(/\s/g, "") == '' || $('#_txtNomorRekening').val().length == 0) {
+				bol = true;
+				number++;
+				ok += " " + number + ".  <b>Nomor Rekening</b> <br /> ";
+				bol = true;
+				$('#_txtNomorRekening').addClass("is-Invalid");
+				
+				if ($('#_txtNomorRekening').val().replace(/\s/g, "") == '') {
+					$('#_txtNomorRekening').val("");
+				}
+			}
+			
+			if(bol == true){				
+				Lobibox.notify('warning', {
+					title: '' + okTitle + '',
+					msg: '' + ok + '',
+					position: 'top right',
+					delay: 5000,
+					messageHeight: false,
+					pauseDelayOnHover: true,
+					continueDelayOnInactiveTab: false,
+				});
+			}else{
+				var fileUpload = $("#_attachment").get(0);
+				var files = fileUpload.files;				
+				var myFormData = new FormData();
+				if(files.length > 0){					
+					myFormData.append('attachment', files[0]);
+					myFormData.append('isAttachment', "true");
+				}else{
+					myFormData.append('attachment', "");
+					myFormData.append('isAttachment', "false");
+				}
+				
+				myFormData.append('email_penerima', 'teguh.ziliwu@gmail.com');
+				myFormData.append('subjek', 'REGISTER');
+				myFormData.append('pesan', 'REGISTER');
+				
+				myFormData.append('namalengkap', $('#_txtFullName').val().toUpperCase());
+				myFormData.append('email', $('#_txtEmail').val());
+				myFormData.append('nowa', $('#_txtNoWhatsApp').val());
+				myFormData.append('bank', $('#_ddlBank').val());
+				myFormData.append('namarekening', $('#_txtNamaRekening').val().toUpperCase());
+				myFormData.append('nomorrekening', $('#_txtNomorRekening').val());
+				
+				 $.ajax({
+					url:"email_php/send.php", //the page containing php script
+					type: "Post", //request type,	
+					// data: {email_penerima: "teguh.ziliwu@gmail.com", subjek: "Daftar", pesan: "Create Akun Baru", attachment: ""},
+					// cache: false,
+					processData: false, // important
+					contentType: false, // important				
+					data: myFormData,
+					success:function(result){
+					 console.log(result);
+				   }
+				 });
 			}
 		}		
 		
         $('#_btnSubmit').click(function () {
            validasiSubmit();
         });
+		
+		$("#_ddlBank").change(function() {
+			var val = $("#_ddlBank").val();
+			
+			if(val == "LAINNYA"){
+				$("#divLainnya").css("display", "");
+			}else{
+				$("#divLainnya").css("display", "none");
+			}
+		});
+		
+		$(".register_inputform").change(function() {
+			var val = $(this).val().replace(/\s/g, "");
+			if(val != ""){
+				$(this).removeClass("is-Invalid");
+			}
+		});
+	
 	
 	</script>
