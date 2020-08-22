@@ -353,8 +353,17 @@
     <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../../resources/js/all.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../resources/js/endlessRiver.js"></script>
-    <script type="text/javascript" src="../assets/lobibox-master/dist/js/lobibox.js""></script>
+    <script type="text/javascript" src="../assets/lobibox-master/dist/js/lobibox.js"></script>
     <script>
+		
+			function showLoading(){	
+				$("#loadingShow").css("display", "flex");
+			}
+			
+			function closeLoading(){
+				$("#loadingShow").css("display", "none");
+			}
+		
         $('.carousel').carousel({
             interval: 2000
         })
@@ -598,8 +607,8 @@
     <script>
         jQuery(document).ready(function ($) {
             $(".myTooltip").zTip();
-        });
-
+        });		
+		
         $(".myCallback").zTip({
             source: function (elem) {
                 return elem.next('div').html();

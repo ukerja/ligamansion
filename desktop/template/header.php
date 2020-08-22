@@ -28,6 +28,7 @@
 	<script src="../../resources/js/jquery.min.js"></script>
 	
 </head>
+
 <body>
 
     <div id="wrapper" class="wrapperContact">
@@ -76,6 +77,15 @@
         <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FBD85D7B" />
         <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WRfcLqahIQWqPBjl5MkZNqCcvBNensJ5ey4+E2WenKER27xt8pnPl6SwElmIkRa7jAgCEzuudRWoJE67aRz2/9P1d4wk+x/3o0oNDONFnXX4VMQ3imFBMKLyjYGmLYOnyvfOykDQvOWhTFCujehOId8mQpYmn63nCrwP3ZQLgCg=" />
     </div>
+	
+<div class="loading_div" id="loadingShow">
+	<div class="spinner-border text-warning" role="status" style="width:6rem; height:6rem;">
+	  <span class="sr-only">Loading...</span>
+	</div>
+	<div class="boxLoading">
+		<span style="font-size: 16px;font-weight: bold;color: black;">Loading...</span>
+	</div>
+</div>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark">	
         <div class="container">
         <a class="navbar-brand" href="index">

@@ -6,12 +6,14 @@ include('phpmailer/Exception.php');
 include('phpmailer/PHPMailer.php');
 include('phpmailer/SMTP.php');
 
-$namalengkap = $_POST['namalengkap']; //Ambil nama lengkap dari inputan
-$email = $_POST['email']; //Ambil email lengkap dari inputan
-$nowa = $_POST['nowa']; //Ambil nowa lengkap dari inputan
-$bank = $_POST['bank']; //Ambil bank lengkap dari inputan
-$namarekening = $_POST['namarekening']; //Ambil namarekening lengkap dari inputan
-$nomorrekening = $_POST['nomorrekening']; //Ambil nomorrekening lengkap dari inputan
+// $namalengkap = $_POST['namalengkap']; //Ambil nama lengkap dari inputan
+$email = $_POST['email']; //Ambil email dari inputan
+$nowa = $_POST['nowa']; //Ambil nowa dari inputan
+$bank = $_POST['bank']; //Ambil bank dari inputan 
+$_txtBankLainnya = $_POST['banklainnya']; //Ambil bank dari inputan 
+$namarekening = $_POST['namarekening']; //Ambil namarekening dari inputan
+$nomorrekening = $_POST['nomorrekening']; //Ambil nomorrekening dari inputan 
+$jenispermainan = $_POST['jenispermainan']; //Ambil jenispermainan dari inputan 
 
 $isAttachment = $_POST['isAttachment']; //Ambil status attachment apakah ada atau tidak
 $email_pengirim = 'teguh.ziliwu17@gmail.com'; // Isikan dengan email pengirim
@@ -51,7 +53,7 @@ if(empty($attachment)){ // Jika tanpa attachment
     $send = $mail->send();
     if($send){ // Jika Email berhasil dikirim
         // echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
-        echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
+        echo "Berhasil";
     }else{ // Jika Email gagal dikirim
         echo "<h1>Email gagal dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
         // echo '<h1>ERROR<br /><small>Error while sending email: '.$mail->getError().'</small></h1>'; // Aktifkan untuk mengetahui error message
@@ -63,7 +65,8 @@ if(empty($attachment)){ // Jika tanpa attachment
         $mail->addAttachment($tmp, $attachment); // Add file yang akan di kirim
         $send = $mail->send();
         if($send){ // Jika Email berhasil dikirim
-            echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
+            // echo "<h1>Email berhasil dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
+			echo "Berhasil";
         }else{ // Jika Email gagal dikirim
             echo "<h1>Email gagal dikirim</h1><br /><a href='index.php'>Kembali ke Form</a>";
             // echo '<h1>ERROR<br /><small>Error while sending email: '.$mail->getError().'</small></h1>'; // Aktifkan untuk mengetahui error message

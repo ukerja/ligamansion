@@ -12,14 +12,14 @@
 	<h2 style="text-align:center;"><?php echo $subjek; // Tampilkan isi pesan ?></h2>
     <div style="text-align: justify">
 		<table>
-			<tr>
+			<!--<tr>
 				<td>
 					Nama Lengkap
 				</td>
 				<td>
-					: <?php echo $namalengkap; // Tampilkan isi pesan ?>
+				
 				</td>
-			</tr>
+			</tr>-->
 			<tr>
 				<td>
 					Email
@@ -41,7 +41,7 @@
 					Bank
 				</td>
 				<td>
-					: <?php echo $bank; // Tampilkan isi pesan ?>
+					: <?php echo $bank . ' ' .$_txtBankLainnya; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 			<tr>
@@ -58,6 +58,14 @@
 				</td>
 				<td>
 					: <?php echo $nomorrekening; // Tampilkan isi pesan ?>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Jenis Permainan
+				</td>
+				<td>
+					: <?php echo $jenispermainan; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 		</table>
