@@ -136,8 +136,8 @@
                         POKER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="poker">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="http://kartuliga.net/">Action</a>
+                        <a class="dropdown-item" href="http://kartuliga.vip/">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
@@ -147,8 +147,8 @@
                         TOGEL
                     </a>
                     <div class="dropdown-menu" aria-labelledby="togel">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="http://ligaimpian.net/">Action</a>
+                        <a class="dropdown-item" href="http://ligaimpian.org/">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>

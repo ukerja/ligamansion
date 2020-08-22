@@ -23,17 +23,17 @@
 	                    <div class="sbsports_tabbing1">
 	                        <ul id="ctl00_ContentPlaceHolder1_ulGame">
 	                            <li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 	                            <li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 	                            <li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 								<li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 								<li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 								<li class="imagesec"><img src="../../resources/images/desktop/game.png" /><a
-	                                    href="javascript:alert('Please login.');" class="bettingnow">DAFTAR</a></li>
+	                                    href="register.php" class="bettingnow">DAFTAR</a></li>
 	                            
 	                        </ul>
 	                    </div>
