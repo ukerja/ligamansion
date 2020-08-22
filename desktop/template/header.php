@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
     <link href="../../resources/css/desktop/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../../resources/css/desktop/style.css" rel="stylesheet" type="text/css" />
-    <link href="../../resources/css/desktop/fontawesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../resources/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../resources/css/desktop/all.min.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
@@ -30,7 +29,7 @@
 </head>
 <body>
 
-    <div id="wrapper">
+    <div id="wrapper" class="wrapperContact">
   <div id="box">
 	<img src="../../resources/images/desktop/24.png" style=" width: 100%; padding-left: 15px; padding-top: 20px; padding-right: 15px;" >
 	<img src="../../resources/images/desktop/wb.png" style=" width: 90%; padding-left: 20px; padding-top: 40px">
@@ -39,7 +38,7 @@
 </div>
 	
   <div id="square">
-	<i class="fa fa-headset" style="font-size: 25px; color: white"></i></br></br>
+	<i class="fa fa-headset" style="font-size: 25px; color: #ffff00"></i></br></br>
 	<h1 class="text1">Hubungi Kami</h1>
   </div>
 </div>
@@ -71,15 +70,16 @@
         <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FBD85D7B" />
         <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="WRfcLqahIQWqPBjl5MkZNqCcvBNensJ5ey4+E2WenKER27xt8pnPl6SwElmIkRa7jAgCEzuudRWoJE67aRz2/9P1d4wk+x/3o0oNDONFnXX4VMQ3imFBMKLyjYGmLYOnyvfOykDQvOWhTFCujehOId8mQpYmn63nCrwP3ZQLgCg=" />
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">	
+        <div class="container">
         <a class="navbar-brand" href="index">
-            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%' />
+            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:300px;' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 		
-        <div class="navbar-collapse collapse" id="navbarNavDropdown" style="padding-left: 50px;">
+        <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
             <ul class="navbar-nav">
                 <li class="nav-item navbarlink" id="Linkindex">
                     <a class="nav-link" href="index" style="text-align: center">
@@ -148,10 +148,11 @@
                 </li>
                 <li class="nav-item navbarlink" id="Linklivescore">
                     <a class="nav-link" href="#" id="livescrore" style="text-align: center">
-                        <i class="fa fa-futbol-o" style="font-size: 25px;"></i><br />
+                        <i class="fa fa-futbol" style="font-size: 25px;"></i><br />
                         LIVESCORE
                     </a>
                 </li>
             </ul>
         </div>
+		</div>
     </nav>

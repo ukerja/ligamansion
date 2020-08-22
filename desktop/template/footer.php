@@ -351,6 +351,7 @@
     </div>
     <script src="../../resources/js/jquery.min.js"></script>
     <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../resources/js/all.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../resources/js/endlessRiver.js"></script>
     <script>
         $('.carousel').carousel({
@@ -881,7 +882,7 @@
 
 
     </script>
-	<script src='../../resources/js/a076d05399.js'></script>
+	 <!--<script src='../../resources/js/a076d05399.js'></script>-->
     <!-- Start of LiveChat (www.livechatinc.com) code -->
     <script>
         window.__lc = window.__lc || {};
