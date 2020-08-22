@@ -2071,7 +2071,7 @@ a.demo_btn:hover {
         position: absolute;
         left: 0px;
         right: 0px;
-        bottom: 20px;
+        bottom: 40px;
         margin: 0 auto;
         width: auto;
         font-size: 15px;
@@ -4695,7 +4695,7 @@ font-size: 100%;padding-top: 3px;}
 }
 
 #box {
-  height:350px;
+  height:600px;
   background-color: #101010;
   border: 3px solid #ffff00;
 }
