@@ -32,14 +32,14 @@
     <div id="wrapper" class="wrapperContact">
   <div id="box">
 	<img src="../../resources/images/desktop/24.png" style=" width: 100%; padding-left: 15px; padding-top: 20px; padding-right: 15px;" >
-	<img src="../../resources/images/desktop/wb.png" style=" width: 90%; padding-left: 20px; padding-top: 40px">
-	<img src="../../resources/images/desktop/wechat.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/line.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/wa.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/tele.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/call.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/live.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/cepet.png" style=" width: 90%; padding-left: 20px; padding-top: 30px">
+	<img src="../../resources/images/desktop/wb.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
+	<img src="../../resources/images/desktop/wechat.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/line.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/wa.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/tele.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/call.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/live.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/cepet.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
 </div>
 	
   <div id="square">
