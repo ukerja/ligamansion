@@ -34,14 +34,14 @@
     <div id="wrapper" class="wrapperContact">
   <div id="box">
 	<img src="../../resources/images/desktop/24.png" style=" width: 100%; padding-left: 15px; padding-top: 20px; padding-right: 15px;" >
-	<img src="../../resources/images/desktop/wb.png" style=" width: 90%; padding-left: 20px; padding-top: 40px">
-	<img src="../../resources/images/desktop/wechat.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/line.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/wa.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/tele.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/call.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/live.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
-	<img src="../../resources/images/desktop/cepet.png" style=" width: 90%; padding-left: 20px; padding-top: 30px">
+	<img src="../../resources/images/desktop/wb.png" style=" width: 90%; padding-left: 20px; padding-top: 20px">
+	<img src="../../resources/images/desktop/wechat.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/line.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/wa.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/tele.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/call.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/live.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
+	<img src="../../resources/images/desktop/cepet.png" style=" width: 90%; padding-left: 20px; padding-top: 10px">
 </div>
 	
   <div id="square">
@@ -146,8 +146,8 @@
                         POKER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="poker">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="http://kartuliga.net/">Action</a>
+                        <a class="dropdown-item" href="http://kartuliga.vip/">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
@@ -157,8 +157,8 @@
                         TOGEL
                     </a>
                     <div class="dropdown-menu" aria-labelledby="togel">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="http://ligaimpian.net/">Action</a>
+                        <a class="dropdown-item" href="http://ligaimpian.org/">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
