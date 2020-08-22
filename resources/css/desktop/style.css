@@ -4709,3 +4709,9 @@ font-size: 100%;padding-top: 3px;}
 .carousel-item{
 	text-align:center;
 }
+
+.is-Invalid{
+	border: 1px solid red !important;
+}
+
+

@@ -23,6 +23,7 @@
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
+    <link href="../assets/lobibox-master/dist/css/lobibox.css" rel="stylesheet" type="text/css">
 	
 	<script src="../../resources/js/jquery.min.js"></script>
 	
