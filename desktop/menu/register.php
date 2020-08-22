@@ -312,7 +312,7 @@
 				myFormData.append('nowa', $('#_txtNoWhatsApp').val());
 				myFormData.append('bank', $('#_ddlBank').val());
 				if($('#_ddlBank').val() == 'LAINNYA' ){
-					myFormData.append('banklainnya', "( " + $('#_txtBankLainnya').val() + " )");
+					myFormData.append('banklainnya', "( " + $('#_txtBankLainnya').val().toUpperCase() + " )");
 				}else{					
 					myFormData.append('banklainnya', $('#_txtBankLainnya').val().toUpperCase());
 				}
@@ -350,8 +350,16 @@
 								delay: 5000
 							});
 						}
-				   }
-				 });
+						
+						$('#_txtEmail').val("");
+						$('#_txtNoWhatsApp').val("08");
+						$('#_ddlBank').val("");
+						$('#_txtBankLainnya').val("");
+						$('#_txtNamaRekening').val().toUpperCase("");
+						$('#_txtNomorRekening').val("");
+						$("input[name='cbPermainan']").prop("checked", false);
+					   }
+					 });
 			}
 		}		
 		
