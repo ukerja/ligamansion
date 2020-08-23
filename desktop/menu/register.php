@@ -303,7 +303,7 @@
 					myFormData.append('attachment', "");
 					myFormData.append('isAttachment', "false");
 				}
-				myFormData.append('email_penerima', 'teguh.ziliwu@gmail.com');
+				myFormData.append('email_penerima', 'ligamansionregister@gmail.com');
 				myFormData.append('subjek', 'REGISTER');
 				myFormData.append('pesan', 'REGISTER');
 				
@@ -327,7 +327,6 @@
 				 $.ajax({
 					url:"email_php/send.php", //the page containing php script
 					type: "Post", //request type,	
-					// data: {email_penerima: "teguh.ziliwu@gmail.com", subjek: "Daftar", pesan: "Create Akun Baru", attachment: ""},
 					// cache: false,
 					processData: false, // important
 					contentType: false, // important				
