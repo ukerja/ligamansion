@@ -116,7 +116,7 @@
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkwithdraw">
-                    <a class="nav-link" href="#" id="withdraw" style="text-align: center">
+                    <a class="nav-link" href="withdraw.php" id="withdraw" style="text-align: center">
                         <i class="fa fa-wallet" style="font-size: 25px;"></i><br />
                         WITHDRAW
                     </a>
