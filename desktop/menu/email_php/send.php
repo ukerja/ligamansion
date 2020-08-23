@@ -46,11 +46,17 @@ $mail->addAddress($email_penerima, '');
 $mail->isHTML(true); // Aktifkan jika isi emailnya berupa html
 // Load file content.php
 ob_start();
+
 if($jenisemail == "DEPOSIT"){
 	include "contentDeposit.php";
-}else{
+}
+	else if($jenisemail == "WITHDRAW"){
+	include "contentWithdraw.php";
+}
+	else{
 	include "content.php";
 }
+
 $content = ob_get_contents(); // Ambil isi file content.php dan masukan ke variabel $content
 ob_end_clean();
 $mail->Subject = $subjek;
