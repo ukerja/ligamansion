@@ -41,7 +41,7 @@
 					Bank
 				</td>
 				<td>
-					: <?php echo $bank . ' ' .$_txtBankLainnya; // Tampilkan isi pesan ?>
+					: <?php echo $bank . ' ' .$banklainnya; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 			<tr>
@@ -70,7 +70,7 @@
 			</tr>
 		</table>
 		<br/>
-		<a><i>This is auto send mail by Ligamansion.com.
+		<a><i>This is auto send mail by ligamansion.com.
 		Please don't reply this email.</i>
 		</a>
     </div>

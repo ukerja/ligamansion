@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
     <link href="../../resources/css/desktop/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../../resources/css/desktop/style.css" rel="stylesheet" type="text/css" />
-    <link href="../../resources/css/desktop/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
@@ -110,7 +110,7 @@
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkdeposit">
-                    <a class="nav-link" href="#" id="deposit" style="text-align: center">
+                    <a class="nav-link" href="deposit" id="deposit" style="text-align: center">
                         <i class="fa fa-hand-holding-usd" style="font-size: 25px;"></i><br />
                         DEPOSIT
                     </a>
@@ -146,9 +146,8 @@
                         POKER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="poker">
-                        <a class="dropdown-item" href="http://kartuliga.net/">Action</a>
-                        <a class="dropdown-item" href="http://kartuliga.vip/">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="http://kartuliga.net/">Link ALT 1</a>
+                        <a class="dropdown-item" href="http://kartuliga.vip/">Link ALT 2</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linktogel">
@@ -157,13 +156,12 @@
                         TOGEL
                     </a>
                     <div class="dropdown-menu" aria-labelledby="togel">
-                        <a class="dropdown-item" href="http://ligaimpian.net/">Action</a>
-                        <a class="dropdown-item" href="http://ligaimpian.org/">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="http://ligaimpian.net/">Link ALT 1</a>
+                        <a class="dropdown-item" href="http://ligaimpian.org/">Link ALT 2</a>
                     </div>
                 </li>
                 <li class="nav-item navbarlink" id="Linklivescore">
-                    <a class="nav-link" href="#" id="livescrore" style="text-align: center">
+                    <a class="nav-link" href="livescore" id="livescrore" style="text-align: center">
                         <i class="fa fa-futbol" style="font-size: 25px;"></i><br />
                         LIVESCORE
                     </a>

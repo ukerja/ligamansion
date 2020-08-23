@@ -320,6 +320,10 @@
 				myFormData.append('nomorrekening', $('#_txtNomorRekening').val());
 				myFormData.append('jenispermainan', jenispermainan);
 				
+				myFormData.append('userid', '');
+				myFormData.append('jumlah', '');
+				myFormData.append('jenisemail', 'REGISTER');
+				
 				 $.ajax({
 					url:"email_php/send.php", //the page containing php script
 					type: "Post", //request type,	
@@ -334,7 +338,7 @@
 					complete: function () {
 					   closeLoading();
 					},
-					success:function(result){						
+					success:function(result){			
 						if(result == "Berhasil"){							
                             Lobibox.notify('success', {
                                 title: 'Berhasil',
@@ -355,7 +359,7 @@
 						$('#_txtNoWhatsApp').val("08");
 						$('#_ddlBank').val("");
 						$('#_txtBankLainnya').val("");
-						$('#_txtNamaRekening').val().toUpperCase("");
+						$('#_txtNamaRekening').val("");
 						$('#_txtNomorRekening').val("");
 						$("input[name='cbPermainan']").prop("checked", false);
 					   }

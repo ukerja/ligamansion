@@ -351,7 +351,8 @@
     </div>
     <script src="../../resources/js/jquery.min.js"></script>
     <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="../../resources/js/all.min.js" type="text/javascript"></script>
+    <script src="../../resources/js/jquery.priceformat.js" type="text/javascript"></script>
+    <script src="../assets/fontawesome-free-5.14.0-web/js/all.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../resources/js/endlessRiver.js"></script>
     <script type="text/javascript" src="../assets/lobibox-master/dist/js/lobibox.js"></script>
     <script>
