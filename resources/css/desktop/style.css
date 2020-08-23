@@ -4749,3 +4749,15 @@ font-size: 100%;padding-top: 3px;}
 .form-check-label:hover{
 	cursor:pointer;
 }
+
+.BCA_BANK {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../images/bank-icon.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+	height: 27px;
+	width:66px;
+}
+

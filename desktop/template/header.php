@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
     <link href="../../resources/css/desktop/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="../../resources/css/desktop/style.css" rel="stylesheet" type="text/css" />
-    <link href="../../resources/css/desktop/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet" type="text/css" />
     <link type="text/css" rel="stylesheet" href="../../resources/css/endlessRiver.css" />
     <link href="../../resources/css/jquery.range.css" rel="stylesheet" />
     <link href="../../resources/css/desktop/main.css" rel="stylesheet" type="text/css">
@@ -110,7 +110,7 @@
                     </a>
                 </li>
                 <li class="nav-item navbarlink" id="Linkdeposit">
-                    <a class="nav-link" href="#" id="deposit" style="text-align: center">
+                    <a class="nav-link" href="deposit" id="deposit" style="text-align: center">
                         <i class="fa fa-hand-holding-usd" style="font-size: 25px;"></i><br />
                         DEPOSIT
                     </a>
