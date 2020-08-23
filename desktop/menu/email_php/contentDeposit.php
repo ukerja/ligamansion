@@ -22,31 +22,15 @@
 			</tr>-->
 			<tr>
 				<td>
-					Email
+					User ID
 				</td>
 				<td>
-					: <?php echo $email; // Tampilkan isi pesan ?>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					No WhatsApp
-				</td>
-				<td>
-					: <?php echo $nowa; // Tampilkan isi pesan ?>
+					: <?php echo $userid; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					Bank
-				</td>
-				<td>
-					: <?php echo $bank . ' ' .$banklainnya; // Tampilkan isi pesan ?>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Nama Rekening
+					Nama Rekening Depositor
 				</td>
 				<td>
 					: <?php echo $namarekening; // Tampilkan isi pesan ?>
@@ -54,10 +38,10 @@
 			</tr>
 			<tr>
 				<td>
-					Nomor Rekening
+					Tujuan Bank
 				</td>
 				<td>
-					: <?php echo $nomorrekening; // Tampilkan isi pesan ?>
+					: <?php echo $bank; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 			<tr>
@@ -66,6 +50,14 @@
 				</td>
 				<td>
 					: <?php echo $jenispermainan; // Tampilkan isi pesan ?>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Jumlah Deposit
+				</td>
+				<td>
+					: <?php echo $jumlah; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 		</table>

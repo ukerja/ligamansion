@@ -7,17 +7,20 @@ include('phpmailer/PHPMailer.php');
 include('phpmailer/SMTP.php');
 
 // $namalengkap = $_POST['namalengkap']; //Ambil nama lengkap dari inputan
+$userid = $_POST['userid']; //Ambil userid dari inputan
+$jumlah = $_POST['jumlah']; //Ambil jumlah dari inputan
+$jenisemail = $_POST['jenisemail']; //Ambil jumlah dari inputan
 $email = $_POST['email']; //Ambil email dari inputan
 $nowa = $_POST['nowa']; //Ambil nowa dari inputan
 $bank = $_POST['bank']; //Ambil bank dari inputan 
-$_txtBankLainnya = $_POST['banklainnya']; //Ambil bank dari inputan 
+$banklainnya = $_POST['banklainnya']; //Ambil bank dari inputan 
 $namarekening = $_POST['namarekening']; //Ambil namarekening dari inputan
 $nomorrekening = $_POST['nomorrekening']; //Ambil nomorrekening dari inputan 
 $jenispermainan = $_POST['jenispermainan']; //Ambil jenispermainan dari inputan 
 
 $isAttachment = $_POST['isAttachment']; //Ambil status attachment apakah ada atau tidak
-$email_pengirim = 'teguh.ziliwu17@gmail.com'; // Isikan dengan email pengirim
-$nama_pengirim = 'Teguh Ziliwu'; // Isikan dengan nama pengirim
+$email_pengirim = 'ligamansionsite@gmail.com'; // Isikan dengan email pengirim
+$nama_pengirim = 'ligamansion.com'; // Isikan dengan nama pengirim
 $email_penerima = $_POST['email_penerima']; // Ambil email penerima dari inputan form
 $subjek = $_POST['subjek']; // Ambil subjek dari inputan form
 $pesan = $_POST['pesan']; // Ambil pesan dari inputan form
@@ -33,7 +36,7 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->Username = $email_pengirim; // Email Pengirim
-$mail->Password = 'qhaxkznxxgsygcfw'; // Isikan dengan Password email pengirim
+$mail->Password = 'nvithdsukehkfkdi'; // Isikan dengan Password email pengirim
 $mail->Port = 465;
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'ssl';
@@ -43,7 +46,11 @@ $mail->addAddress($email_penerima, '');
 $mail->isHTML(true); // Aktifkan jika isi emailnya berupa html
 // Load file content.php
 ob_start();
-include "content.php";
+if($jenisemail == "DEPOSIT"){
+	include "contentDeposit.php";
+}else{
+	include "content.php";
+}
 $content = ob_get_contents(); // Ambil isi file content.php dan masukan ke variabel $content
 ob_end_clean();
 $mail->Subject = $subjek;
