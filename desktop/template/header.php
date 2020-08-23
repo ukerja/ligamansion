@@ -161,7 +161,7 @@
                     </div>
                 </li>
                 <li class="nav-item navbarlink" id="Linklivescore">
-                    <a class="nav-link" href="#" id="livescrore" style="text-align: center">
+                    <a class="nav-link" href="livescore" id="livescrore" style="text-align: center">
                         <i class="fa fa-futbol" style="font-size: 25px;"></i><br />
                         LIVESCORE
                     </a>
