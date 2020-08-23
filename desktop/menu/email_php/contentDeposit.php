@@ -57,7 +57,7 @@
 					Jumlah Deposit
 				</td>
 				<td>
-					: <?php echo $jumlah; // Tampilkan isi pesan ?>
+					: <?php echo "Rp. ".$jumlah; // Tampilkan isi pesan ?>
 				</td>
 			</tr>
 		</table>

@@ -146,9 +146,8 @@
                         POKER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="poker">
-                        <a class="dropdown-item" href="http://kartuliga.net/">Action</a>
-                        <a class="dropdown-item" href="http://kartuliga.vip/">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="http://kartuliga.net/">Link ALT 1</a>
+                        <a class="dropdown-item" href="http://kartuliga.vip/">Link ALT 2</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown navbarlink" id="Linktogel">
@@ -157,9 +156,8 @@
                         TOGEL
                     </a>
                     <div class="dropdown-menu" aria-labelledby="togel">
-                        <a class="dropdown-item" href="http://ligaimpian.net/">Action</a>
-                        <a class="dropdown-item" href="http://ligaimpian.org/">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="http://ligaimpian.net/">Link ALT 1</a>
+                        <a class="dropdown-item" href="http://ligaimpian.org/">Link ALT 2</a>
                     </div>
                 </li>
                 <li class="nav-item navbarlink" id="Linklivescore">
