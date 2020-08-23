@@ -17,6 +17,7 @@
 	                </div>
 	            </div>
 	        </div>
+	
 	        <div class="row">
 	            <div class="col-md-12">
 	                <div class="sbsports_tabbing">
@@ -44,6 +45,8 @@
 	                </div>
 	            </div>
 	        </div>
+		</div>
+	</div>
 	        <?php 
 	include '../template/footer.php'; 
 	?>

@@ -45,7 +45,7 @@
 											<div class="registermain_right2sub4">
 												<div class="demo">
 													<div class="row">
-														<div class="col-md-6 col-6">
+														<div class="col-md-12">
 															<select name="_ddlBank" id="_ddlBank" class="register_inputform" style="padding:5px;">
 																<option value="">-- Pilih Bank --</option>
 																<option value="BCA">BCA</option>
@@ -282,7 +282,7 @@
 				myFormData.append('jumlah', $('#_JumlahWithdraw').val());
 				myFormData.append('bank', $('#_ddlBank').val());
 				if($('#_ddlBank').val() == 'LAINNYA' ){
-					myFormData.append('banklainnya', "( " + $('#_txtBankLainnya').val().toUpperCase() + " )");
+					myFormData.append('banklainnya', "  ( " + $('#_txtBankLainnya').val().toUpperCase() + " )");
 				}else{					
 					myFormData.append('banklainnya', $('#_txtBankLainnya').val().toUpperCase());
 				}
