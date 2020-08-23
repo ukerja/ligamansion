@@ -4812,3 +4812,21 @@ font-size: 100%;padding-top: 3px;}
     margin-top: -4px;
 }
 
+
+.OVO_BANK {    
+	/* position: absolute; */
+	/* background: url(../../images/bank/CIMB.png) 50% no-repeat; */
+    /* background-size: contain; */
+    /* width: 105px; */
+    /* height: 30px; */
+	
+	position: inline-block;
+	background: url(../../images/bank/OVO.png) 50% no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+	margin-left: -15px;
+    margin-top: -4px;
+}
