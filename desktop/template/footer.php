@@ -5,10 +5,10 @@
                 <div class="col-md-8">
                     <div class="footer_menu">
                         <ul>
-                            <li><a onclick="openCenteredWindow('/desktop/about-us','master')">Tentang LIGAMANSION</a></li>
-                            <li><a onclick="openCenteredWindow('/desktop/responsible-gaming','master')">Responsible Gambling</a></li>
-                            <li><a onclick="openCenteredWindow('/desktop/faq','master')">Pusat Bantuan</a></li>
-                            <li><a onclick="openCenteredWindow('/desktop/terms-of-use','master')">Syarat dan Ketentuan</a></li>
+							<li><a onclick = "createPopupWin('about-us.php', 'Tentang LIGAMANSION', 858, 612);">Tentang LIGAMANSION</a><li>
+                            <li><a onclick = "createPopupWin('responsible-gaming.php', 'Tentang LIGAMANSION', 858, 612);">Responsible Gambling</a></li>
+                            <li><a onclick = "createPopupWin('faq.php', 'Tentang LIGAMANSION', 858, 612);">Pusat Bantuan</a></li>
+                            <li><a onclick = "createPopupWin('terms-of-use.php', 'Tentang LIGAMANSION', 858, 612);">Syarat dan Ketentuan</a></li>
                         </ul>
                     </div>
                 </div>
@@ -369,6 +369,19 @@
             interval: 2000
         })
     </script>
+	
+	 <script> 
+        function createPopupWin(pageURL, pageTitle, 
+                    popupWinWidth, popupWinHeight) { 
+            var left = (screen.width ) ; 
+            var top = (screen.height ) ; 
+            var myWindow = window.open(pageURL, pageTitle,  
+                    'resizable=yes, width=' + popupWinWidth 
+                    + ', height=' + popupWinHeight + ', top=' 
+                    + top + ', left=' + left); 
+        } 
+    </script> 
+	
     <script>
         $(document).ready(function () {
             if ($("#ctl00_ContentPlaceHolder1_myUl").find("li").length > 0) {
