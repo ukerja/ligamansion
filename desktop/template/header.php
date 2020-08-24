@@ -86,7 +86,7 @@
 		<span style="font-size: 16px;font-weight: bold;color: black;">Loading...</span>
 	</div>
 </div>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="position:fixed; z-index:9999; width:100%;overflow-x:auto;">	
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="">	
         <div class="container">
         <a class="navbar-brand logo-logo" href="index" style="padding-top:15px;">
             <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:300px;' />
@@ -96,7 +96,7 @@
         </button>
 		
         <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
-            <ul class="navbar-nav" style="max-height: 450px;overflow: auto;width: 100%;justify-content: space-between">
+            <ul class="navbar-nav" style="">
                 <li class="nav-item navbarlink" id="Linkindex">
                     <a class="nav-link" href="index" style="text-align: center">
                         <i class="fa fa-home" style="font-size: 25px;"></i><br />
