@@ -137,6 +137,7 @@
                                 <h3>
                                     BANTUAN & DUKUNGAN
                                 </h3>
+								
                                 <p>
                                     Servis Lainnya
                                 </p>
@@ -144,18 +145,31 @@
                         </div>
                         <div class="support">
                             <div class="suppprt_left">
-
+							<img src="../../resources/images/desktop/WhatsappLigamansion.png">
                             </div>
                             <div class="suppprt_right">
-                                <ul></ul>
+                                <ul>
+								<img src="../../resources/images/desktop/wa.png" style="padding-top: 20px;">
+								<img src="../../resources/images/desktop/line.png" style="padding-top: 20px;">
+								<img src="../../resources/images/desktop/call.png" style="padding-top: 20px;">
+								</ul>
                             </div>
                         </div>
                         <div class="connect">
                             <h5>
                                 TERHUBUNG DENGAN KAMI
                             </h5>
-                            <ul></ul>
+							<ul class="small_logo">
+                                    <img src="../../resources/images/desktop/face.png" style="width: 30px;"></li></span>
+                                    <img src="../../resources/images/desktop/ig.png" style="width: 30px; margin-left: 5px;"></li></span>
+									<img src="../../resources/images/desktop/teleg.png" style="width: 30px; margin-left: 5px;"></li></span>
+									<img src="../../resources/images/desktop/wha.png" style="width: 30px; margin-left: 5px;"></li></span>
+									<img src="../../resources/images/desktop/twi.png" style="width: 30px; margin-left: 5px;"></li></span>
+                                   
+                            </ul>
+                            
                         </div>
+						
                     </div>
                 </div>
             </div>
