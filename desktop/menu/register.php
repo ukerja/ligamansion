@@ -157,7 +157,21 @@
 					</div>					
 					<div class="col-md-3">
 						<div class="registermain_left">
-							<img id="ctl00_ContentPlaceHolder1_RegisterImage" src="../../resources/images/desktop/register_96c00afb-2339-4071-aabc-5685e6905423_1597852022565.png" style="border-width:0px;">
+							<div class="mid_box">
+                                    <h5>
+                                        Informasi Register
+                                    </h5>
+                                    <p>
+                                       <p> <li>1. Member Yang Melakukan Pendaftaran Wajib Mengisi Data Yang Benar dan Lengkap.</li></p>
+
+									   <p> <li>2. Setelah Melakukan Pendaftaran, User ID Anda Akan Di Kirim Melalui Whatsapp.</li></p>
+
+									   <p> <li>3. Apabila User ID Anda Tidak Di Kirim Melalui Whatsapp selama 2 menit, Anda Bisa Langsung Konfirmasi Melalui LiveChat Kami.</li></p>
+
+									   <p> <li>Terima Kasih Atas Perhatiannya.</li></p>
+
+                                    </p>
+                                </div>
 						</div>
 					</div>
 				</div>

@@ -133,8 +133,33 @@
 											TERMS AND CONDITIONS
 										</a>
 									</div>
+									
+									
 							</div>
 
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="registermain_left">
+							<div class="mid_box">
+                                    <h5>
+                                        Informasi Withdraw
+                                    </h5>
+                                    <p>
+                                       <p> <li>1. Member Yang Melakukan Deposit Wajib Mengisi Data Yang Benar Dan Lengkap.</li></p>
+
+									   <p> <li>2. Minimal Untuk Melakukan Penarikan Saldo / Withdraw Rp.50.000,-</li></p>
+
+									   <p> <li>3. Penarikan Hanya Dapat Di Proses Pada Saat Bank Tersebut Sedang Online, Apabila Bank Dalam Keadaan OFFLINE / GANGGUAN Kami Akan Memprosesnya Setelah Bank Tersebut ONLINE.</li></p>
+
+									   <p> <li>4. Penarikan Saldo / Withdraw Hanya Dapat Di Kirimkan Ke Rekening Yang Terdaftar.</li></p>
+
+									   <p> <li>5. Apabila isi Data Dengan Rekening Yang Berbeda Saldo Tidak Dapat Kita Proseskan.</li></p>
+
+									   <p> <li>Terima Kasih Atas Perhatiannya.</li></p>
+
+                                    </p>
+                                </div>
 						</div>
 					</div>
 				</div>
