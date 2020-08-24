@@ -393,6 +393,12 @@ border-radius: 50%;
 .col-sm-3.col-md-3.logo img { margin-top: 10px;}
 div#navbar { margin-top:0px;}
 
+.logo-logo {
+    padding: 0px;
+    height: 68px;
+    background: url(../../images/desktop/logo_bg.png) left top no-repeat;
+    background-size: 100%;
+}
 
 
 

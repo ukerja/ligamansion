@@ -349,6 +349,7 @@
             </div>
         </div>
     </div>
+	</div>
     <script src="../../resources/js/jquery.min.js"></script>
     <script src="../../resources/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../../resources/js/jquery.priceformat.js" type="text/javascript"></script>

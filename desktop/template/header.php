@@ -86,9 +86,9 @@
 		<span style="font-size: 16px;font-weight: bold;color: black;">Loading...</span>
 	</div>
 </div>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">	
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="position:fixed; z-index:9999; width:100%;overflow-x:auto;">	
         <div class="container">
-        <a class="navbar-brand" href="index">
+        <a class="navbar-brand logo-logo" href="index" style="padding-top:15px;">
             <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:300px;' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,7 +96,7 @@
         </button>
 		
         <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="max-height: 450px;overflow: auto;width: 100%;justify-content: space-between">
                 <li class="nav-item navbarlink" id="Linkindex">
                     <a class="nav-link" href="index" style="text-align: center">
                         <i class="fa fa-home" style="font-size: 25px;"></i><br />
@@ -170,3 +170,4 @@
         </div>
 		</div>
     </nav>
+	<div style="padding-top:120px;">

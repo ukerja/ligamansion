@@ -326,9 +326,14 @@
 		$("#_ddlBank").change(function() {
 			var val = $("#_ddlBank").val();
 			if( val != ""){
-				$('#ibank-img').removeClass();
-				$('#ibank-img').addClass(val+"_BANK");
-				$('#_btnIBANKING').prop("disabled", false);
+				if(val == "OVO"){
+					$('#_btnIBANKING').css("display", "none");
+				}else {
+					$('#_btnIBANKING').css("display", "");
+					$('#ibank-img').removeClass();
+					$('#ibank-img').addClass(val+"_BANK");
+					$('#_btnIBANKING').prop("disabled", false);
+				}
 			}else{
 				$('#ibank-img').removeClass();
 				$('#_btnIBANKING').prop("disabled", true);
