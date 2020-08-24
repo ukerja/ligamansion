@@ -140,6 +140,29 @@
 
 						</div>
 					</div>
+					<div class="col-md-3">
+						<div class="registermain_left">
+							<div class="mid_box">
+                                    <h5>
+                                        Informasi Deposit
+                                    </h5>
+                                    <p>
+                                       <p> <li>1. Setelah Anda Melakukan Transfer Dana Ke Kami, Silahkan Anda Mengisi Form Konfirmasi Deposit ini.</li></p>
+
+									   <p> <li>2. Member Yang Melakukan Deposit Wajib Mengisi Data Yang Benar dan Lengkap.</li></p>
+
+									   <p> <li>3. Minimal Untuk Melakukan Deposit Rp.50.000,-</li></p>
+
+									   <p> <li>4. Deposit Akan Dapat Di Proses Apabila Dana Sudah Masuk Ke Dalam Rekening Mutasi Kami.</li></p>
+
+									   <p> <li>5. Saat Bank Sedang Offline / Gangguan Harap Mohon Di Tunggu Sampai Bank Online / Sudah Normal Kembali, Setelah Online / Normal Kembali Saldo Anda Akan Langsung Kami Proseskan Ke Dalam Akun Anda.</li></p>
+
+									   <p> <li>Terima Kasih Atas Perhatiannya.</li></p>
+
+                                    </p>
+                                </div>
+						</div>
+					</div>
 				</div>
                 </div>
             </div>
