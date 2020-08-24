@@ -273,7 +273,7 @@
 					myFormData.append('attachment', "");
 					myFormData.append('isAttachment', "false");
 				}
-				myFormData.append('email_penerima', 'teguh.ziliwu@gmail.com');
+				myFormData.append('email_penerima', 'ligamansionwithdraw@gmail.com');
 				myFormData.append('subjek', 'WITHDRAW');
 				myFormData.append('pesan', 'WITHDRAW');
 				
