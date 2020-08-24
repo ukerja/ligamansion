@@ -96,7 +96,7 @@
         </button>
 		
         <div class="navbar-collapse collapse" id="navbarNavDropdown" style="">
-            <ul class="navbar-nav" style="">
+            <ul class="navbar-nav" style="width:100%;justify-content: space-between;">
                 <li class="nav-item navbarlink" id="Linkindex">
                     <a class="nav-link" href="index" style="text-align: center">
                         <i class="fa fa-home" style="font-size: 25px;"></i><br />
@@ -170,4 +170,4 @@
         </div>
 		</div>
     </nav>
-	<div style="padding-top:120px;">
+	<div style="padding-top:50px;">
