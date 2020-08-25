@@ -84,21 +84,20 @@
 
     <!--===========================banner===========================-->
 
-    <div class="allpageinner">
+   <div class="mega_jackpot">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="promotion_main">
-
-                        <div class="promotion_main_right">
-                            <div class="promotion_main_right1">
+                    <div class="mega_jackpot_main">
+                        
+                            
                                 <ul>
                                     <li>
 										<img src="https://api2-fz8.tr8games.com/images/id_promo_102b4686-3997-4d8b-8d62-16865e0d95ec_1595848265573.jpg?1595848265573"alt="" />
 									</li>
 								</ul>
-                            </div>
-                        </div>
+                           
+                        
 
                     </div>
                 </div>

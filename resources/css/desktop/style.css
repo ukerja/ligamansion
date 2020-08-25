@@ -1191,6 +1191,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515151', end
 .popular_vidio { background: rgb(4,11,40);}
 
 .mega_jackpot_main{ float:left; width:100%;}
+.mega_jackpot_main ul li img {
+    width: 100%;
+    border: 1px solid #000;
+    height: 144px;
+}
 .mega_jackpot_main_left{ float:left; width:80%; height:110px; background:url(../../images/desktop/jackpot-bg.gif) no-repeat left top;}
 .mega_jackpot_main_right{ float:right; width:19%;}
 
