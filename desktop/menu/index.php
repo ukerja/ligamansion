@@ -84,36 +84,19 @@
 
     <!--===========================banner===========================-->
 
-    <div class="mega_jackpot">
+    <div class="allpageinner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="mega_jackpot_main">
-                        <div id="megaJackpot" class="mega_jackpot_main_left">
-                            <span class="jackpot_currency">USD</span> <span class="bike" id="progressive_jackpot"></span>
-                        </div>
+                    <div class="promotion_main">
 
-                        <div class="mega_jackpot_main_right">
-                            <div class="jackpot_timer">
-                                <div class="jackpot_top">
-                                    <h6>
-                                        SINGAPORE 4D
-                                    </h6>
-                                </div>
-                                <div class="jackpot_mid">
-                                    <div class="jackpot_mid2">
-                                        <div class="jackpot_mid3">
-                                            <img src="../resources/images/desktop/jackpot_right.png" />
-                                        </div>
-                                        <div class="jackpot_mid4">
-                                            <span class="lottery-result-number-8"></span> <span class="lottery-result-number-6"></span> <span class="lottery-result-number-3"></span> <span class="lottery-result-number-2"></span>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Live Draw
-                                        &nbsp;&nbsp;Mgg, 16-08-2020 12:00
-                                    </p>
-                                </div>
+                        <div class="promotion_main_right">
+                            <div class="promotion_main_right1">
+                                <ul>
+                                    <li>
+										<img src="https://api2-fz8.tr8games.com/images/id_promo_102b4686-3997-4d8b-8d62-16865e0d95ec_1595848265573.jpg?1595848265573"alt="" />
+									</li>
+								</ul>
                             </div>
                         </div>
 
