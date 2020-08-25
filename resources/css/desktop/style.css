@@ -4836,3 +4836,14 @@ font-size: 100%;padding-top: 3px;}
 	margin-left: -15px;
     margin-top: -4px;
 }
+
+.footer_menu .footerabout a {
+    display: block;
+    color: #b2b2b2;
+    padding: 0 10px;
+    border-right: 1px solid #3c3c3e;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: 'digital_sans_ef_medium';
+    cursor: pointer;
+}

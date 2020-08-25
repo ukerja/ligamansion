@@ -45,7 +45,7 @@
 											<div class="registermain_right2sub4">
 												<div class="demo">
 													<div class="row">
-														<div class="col-md-6 col-6">
+														<div class="col-md-6 col-12">
 															<select name="_ddlBank" id="_ddlBank" class="register_inputform" style="padding:5px;">
 																<option value="">-- Pilih Bank --</option>
 																<option value="BCA">BCA</option>
@@ -57,7 +57,7 @@
 
 															</select>
 														</div>
-														<div class="col-md-6 col-6" style="padding-left:0;">
+														<div class="col-md-6 col-12">
 															<button class="btn btn-success btn-sm btn-block" id="_btnIBANKING" disabled style="height: 35px;padding: 0;top: 0;position: unset;font-size:20px;border-radius:0;border:0;">
 															<div id="ibank-img" class=""></div>
 															i-Banking

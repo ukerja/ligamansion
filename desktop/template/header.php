@@ -89,7 +89,7 @@
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="">	
         <div class="container">
         <a class="navbar-brand logo-logo" href="index" style="padding-top:15px;">
-            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:300px;' />
+            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:240px;' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -904,18 +904,6 @@
     </script>
 
     <script>
-        setInterval(function () {
-            window.$.ajax({
-                type: 'POST',
-                url: '/desktop/index.aspx/KeepPlayerOnline',
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-                    if (data.d != null && data.d !== '')
-                        alert(data.d);
-                }
-            });
-        }, 60000)
 
 
 
