@@ -7,9 +7,19 @@
 
   </head>
   <body>
+    <script src="resources/js/jquery.min.js"></script>
     <script>
     // similar behavior as an HTTP redirect
-    window.location.replace("desktop/menu/index.php");
+    $(window).on('load resize',function(){
+        if($(window).width() < 700){
+			window.location.replace("mobile/menu/index.php");
+        }else{
+			window.location.replace("desktop/menu/index.php");
+		}		
+    });
+</script>
+
     </script>
   </body>
-</html>
+</html
+
