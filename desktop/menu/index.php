@@ -73,7 +73,9 @@
                         </div>
                         <div class="notice_text">
                             <p>
-                                <span id="ctl00_ContentPlaceHolder1_lblCurrentDate">18/08/2020 (Sel) 17:02 (GMT+07)</span>
+								<?php echo " " . date("l");?>
+								<?php echo " " . date("d-m-Y");?>
+								<?php date_default_timezone_set("asia/bangkok"); echo " " . date("H:i:s");?>
                             </p>
                         </div>
                     </div>
