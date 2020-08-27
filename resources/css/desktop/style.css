@@ -3142,14 +3142,14 @@ background-size: cover;
 
 .footerlogoimageshpae_saba {
     height: 44px;
-    width: 100px;
+    width: 150px;
     display: inline-block;
     background: url(../../images/desktop/sprite2.png) no-repeat left;
-    background-position: 0px -1440px;
+    background-position: 0px -310px;
 }
 
 .footerlogoimageshpae_saba:hover {
-    background-position: -126px -1440px;
+    background-position: -170px -310px;
 }
 
 .footerlogoimageshpae_n2live {
@@ -3297,40 +3297,30 @@ background-size: cover;
 }
 
 
-.footerlogoimageshpae_1Gaming {
-    height: 44px;
-    width: 130px;
-    display: inline-block;
-    background: url(../../images/desktop/sprite2.png) no-repeat left;
-    background-position: 0px -1845px;
-}
 
-.footerlogoimageshpae_1Gaming:hover {
-    background-position: -156px -1845px;
-}
 
 .footerlogoimageshpae_MMTangkas {
     height: 44px;
-    width: 60px;
+    width: 66px;
     display: inline-block;
     background: url(../../images/desktop/sprite2.png) no-repeat left;
     background-position: 0px -1968px;
 }
 
 .footerlogoimageshpae_MMTangkas:hover {
-    background-position: -82px -1968px;
+    background-position: -92px -1968px;
 }
 
 .footerlogoimageshpae_funkyGames {
     height: 44px;
-    width: 171px;
+    width: 140px;
     display: inline-block;
     background: url(../../images/desktop/sprite2.png) no-repeat left;
-    background-position: 0px -1903px;
+    background-position: 0px -2080px;
 }
 
 .footerlogoimageshpae_funkyGames:hover {
-    background-position: -195px -1903px;
+    background-position: -155px -2080px;
 }
 
 .footerlogoimageshpae_OneTouch {
