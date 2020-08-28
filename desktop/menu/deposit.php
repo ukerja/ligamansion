@@ -83,7 +83,7 @@
 														<option value="Sabung Ayam">Sabung Ayam</option>
 														<option value="Tangkasnet">Tangkasnet</option>
 														<option value="Sexy Gaming">Sexy Gaming</option>
-														<option value="Slot">Slot</option>
+														<option value="Joker Gaming">Joker Gaming</option>
 
 													</select>
 												</div>

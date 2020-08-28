@@ -116,8 +116,8 @@
 													<label class="form-check-label" for="_SexyGaming" style="font-size:18px;padding-right:12px;">Sexy Gaming</label>
 												  </div>
 												  <div class="form-check" style="padding-left:1.6rem;">
-													<input type="checkbox" class="form-check-input" name="cbPermainan" jenis-permainan="Slot" id="_Slot" style="transform: scale(1.5);">
-													<label class="form-check-label" for="_Slot" style="font-size:18px;padding-right:12px;">Slot</label>
+													<input type="checkbox" class="form-check-input" name="cbPermainan" jenis-permainan="Joker Gaming" id="_JokerGaming" style="transform: scale(1.5);">
+													<label class="form-check-label" for="_JokerGaming" style="font-size:18px;padding-right:12px;">Joker Gaming</label>
 												  </div>
 											</div>
 											</div>
