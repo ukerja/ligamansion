@@ -142,10 +142,10 @@
                 <li><a href="/mobile/home">
                     <i class="fa fa-hand-holding-usd" style="color:#ffff00;"></i> Deposit</a>
 				</li>
-                <li><a href="/mobile/home">
+                <li><a href="withdraw">
                     <i class="fa fa-wallet" style="color:#ffff00;"></i> Withdraw</a>
 				</li>
-                <li><a href="/mobile/home">
+                <li><a href="promosi">
                     <i class="fa fa-gift" style="color:#ffff00;"></i> Promosi</a>
 				</li>
                 <li class="item-has-children">                    
@@ -156,16 +156,16 @@
 							<a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
 						</li>
 						<li>
-							<a class="dropdown-item" href="casino.php">CASINO</a>
+							<a class="dropdown-item" href="casino">CASINO</a>
 						</li>
 						<li>
-							<a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
+							<a class="dropdown-item" href="sabungayam">SABUNG AYAM</a>
 						</li>
 						<li>
-							<a class="dropdown-item" href="slot.php">SLOT</a>
+							<a class="dropdown-item" href="slot">SLOT</a>
 						</li>
 						<li>
-							<a class="dropdown-item" href="tangkas.php">TANGKAS</a>
+							<a class="dropdown-item" href="tangkas">TANGKAS</a>
 						</li>
                     </ul>
                 </li>
@@ -185,7 +185,7 @@
 						<li><a href="#" onclick="http://ligaimpian.org/">Link ALT 2</a></li>
                     </ul>
                 </li>
-                <li><a href="livescore.php">
+                <li><a href="livescore">
                     <i class="fa fa-futbol" style="color:#ffff00;"></i> Livescore</a>
 				</li>
                 
@@ -206,6 +206,7 @@
 
     <script src="../../desktop/assets/fontawesome-free-5.14.0-web/js/all.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="../../mobile/assets/lobibox-master/dist/js/lobibox.js"></script>
+    <script src="../../resources/js/jquery.priceformat.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	
 		

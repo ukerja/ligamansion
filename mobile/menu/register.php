@@ -18,21 +18,21 @@
 
 									   <p>3. Apabila User ID Anda Tidak Di Kirim Melalui Whatsapp selama 2 menit, Anda Bisa Langsung Konfirmasi Melalui LiveChat Kami.</p>
 
-									   <p>Terima Kasih Atas Perhatiannya.</p>
+									   <p>Terima Kasih Atas Perhatiannya.</p></li>
                             
-                                <label>Email<span style="color: #ff0000">*</span></label>						
+                                <li><label>Email<span style="color: #ff0000">*</span></label>						
 								<input name="_txtEmail" type="text" maxlength="100" id="_txtEmail" class="login_inputbox" placeholder="Email@example.com" autocomplete="false">
                                 <!--<span id="ctl00_ContentPlaceHolder1_rfvEmail" style="color:Red;display:none;"></span>-->
                                 <span id="ctl00_ContentPlaceHolder1_revEmail" style="color:Red;display:none;"></span>
                             
 							
-                                <label>No WhatsApp<span style="color: #ff0000">*</span></label>							
+                                <li><label>No WhatsApp<span style="color: #ff0000">*</span></label>							
 								<input name="_txtNoWhatsApp" type="text" value="08" maxlength="20" id="_txtNoWhatsApp" class="login_inputbox" placeholder="No WhatsApp" autocomplete="off">
                                 <span id="ctl00_ContentPlaceHolder1_rfvUsername" style="color:Red;display:none;"></span>
                                 <span id="ctl00_ContentPlaceHolder1_revUsername" style="color:Red;display:none;"></span>
                                                         
                             
-                                <label>Bank<span style="color: #ff0000">*</span></label>
+                                <li><label>Bank<span style="color: #ff0000">*</span></label>
 								<select name="_ddlBank" id="_ddlBank" class="login_inputbox" style="padding:5px;">
 									<option value="">-- Pilih Bank --</option>
 									<option value="BCA">BCA</option>
@@ -48,24 +48,24 @@
 							<li id="divLainnya" style="display:none;" id="divLainnya">
 								<input name="_txtBankLainnya" type="text" maxlength="100" id="_txtBankLainnya" class="login_inputbox" placeholder="Bank Lainnya" autocomplete="off">
                                 <span id="ctl00_ContentPlaceHolder1_rfvUsername" style="color:Red;display:none;"></span>
-                                <span id="ctl00_ContentPlaceHolder1_revUsername" style="color:Red;display:none;"></span>
+                                <span id="ctl00_ContentPlaceHolder1_revUsername" style="color:Red;display:none;"></span></li>
 							
                             
-                                <label>Nama Rekening<span style="color: #ff0000">*</span></label>
+                                <li><label>Nama Rekening<span style="color: #ff0000">*</span></label>
 								<input name="_txtNamaRekening" type="text" maxlength="100" id="_txtNamaRekening" class="login_inputbox" placeholder="Nama Rekening" autocomplete="off">
 								<span id="ctl00_ContentPlaceHolder1_rfvPassword" style="color:Red;display:none;"></span>
-                                <span id="ctl00_ContentPlaceHolder1_revPassword" style="color:Red;display:none;"></span>
+                                <span id="ctl00_ContentPlaceHolder1_revPassword" style="color:Red;display:none;"></span></li>
                             
                             
-                                <label>Nomor Rekening<span style="color: #ff0000">*</span></label>
+                                <li><label>Nomor Rekening<span style="color: #ff0000">*</span></label>
 								<input name="_txtNomorRekening" type="text" maxlength="20" id="_txtNomorRekening" class="login_inputbox" placeholder="Nomor Rekening" autocomplete="off">
 								<span id="ctl00_ContentPlaceHolder1_rfvConfirmPassword" style="color:Red;display:none;"></span>
                                 <span id="ctl00_ContentPlaceHolder1_revConfirmPassword" style="color:Red;display:none;"></span>
-                                <span id="ctl00_ContentPlaceHolder1_cvPassword" style="color:Red;display:none;"></span>
+                                <span id="ctl00_ContentPlaceHolder1_cvPassword" style="color:Red;display:none;"></span></li>
                             
                             
                             
-                                <label>Jenis Permainan<span style="color: #ff0000">*</span></label>								
+                               <li> <label>Jenis Permainan<span style="color: #ff0000">*</span></label>								
 								<div class="row" style="padding-left: 13px;" id="_jenisPermainanBOX">
 									<div class="col-md-6">
 										<div class="form-check" style="display:flex;">
@@ -99,14 +99,14 @@
 											<label class="form-check-label" for="_JokerGaming" style="font-size:18px;padding-left:20px;">Joker Gaming</label>
 										</div>								
 									</div>
-								</div>
+								</div></li>
                             
 							<li style="display:none;">							
-								<input type="file" name="attachment" id="_attachment" style="margin-top: 5px;width: 400px" hidden />
+								<input type="file" name="attachment" id="_attachment" style="margin-top: 5px;width: 400px" hidden /></li>
 							
                             
-                                <input type="button" name="_btnSubmit" value="REGISTER" id="_btnSubmit" class="btn-style-one orange" />
-                            <div id="ctl00_ContentPlaceHolder1_validation1" style="color:Red;display:none;">
+                              <li>  <input type="button" name="_btnSubmit" value="REGISTER" id="_btnSubmit" class="btn-style-one orange" />
+                            <div id="ctl00_ContentPlaceHolder1_validation1" style="color:Red;display:none;"></li>
 
 	</div>
                             With click REGISTER buttons, I mentioned that i was above 18 years and have read and approved terms &amp; condition of LIGAMANSION..
