@@ -32,17 +32,25 @@
 
 <!--=========================== MEGA Jackpot ===========================-->
 <div class="mega_jackpot">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mega_jackpot_main">                        
-                    <span class="jackpot_currency">USD</span>
-                    <span class="bike" id="progressive_jackpot"></span>                                   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                        
+                            
+                                <ul>
+                                    <li>
+										<img src="https://api2-fz8.tr8games.com/images/id_promo_102b4686-3997-4d8b-8d62-16865e0d95ec_1595848265573.jpg?1595848265573"alt style="padding-top: 20px;" />
+									</li>
+								</ul>
+                           
+                        
+
+                    
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 <script src="../resources/js/new_jackpotjs.js"></script>
@@ -71,7 +79,7 @@
                 </div>
 
                 <div class="container mobile_banks" id="mobileBanks">
-                    <div class="row">
+                    <div class="row"alt style="padding-top: 10px;">
                         <ul>
                             <li class="col-xs-3 greensidebar"><a class="bank" data-toggle="collapse" data-target="#bank1" data-parent="#mobileBanks"><img src="https://api2-fz8.tr8games.com/images/BCA_e1bab23f-dda6-4835-b3ce-d5039f28546c_1594913983070.png?1594913983070"/></a></li><li class="col-xs-3 greensidebar"><a class="bank" data-toggle="collapse" data-target="#bank2" data-parent="#mobileBanks"><img src="https://api2-fz8.tr8games.com/images/BNI_3d30334c-d871-46fb-80b3-0fcb12f99b87_1594918317970.png?1594918317970"/></a></li><li class="col-xs-3 greensidebar"><a class="bank" data-toggle="collapse" data-target="#bank3" data-parent="#mobileBanks"><img src="https://api2-fz8.tr8games.com/images/BRI_a458ab91-91a3-49ac-98b3-1bfc5d1966bd_1594917499597.png?1594917499597"/></a></li><li class="col-xs-3 greensidebar"><a class="bank" data-toggle="collapse" data-target="#bank4" data-parent="#mobileBanks"><img src="https://api2-fz8.tr8games.com/images/Mandiri_ec4427ff-2e6e-4657-a2fe-b3702bc15e7c_1594917537427.png?1594917537427"/></a></li><li class="col-xs-3"><a class="bank"><img src="../resources/images/GeneralBank.png"></img></a></li>
                         </ul>
