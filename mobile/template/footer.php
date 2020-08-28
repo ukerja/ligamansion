@@ -136,7 +136,7 @@
                 <li><a href="index">
                     <i class="fa fa-home" style="color:#ffff00;"></i> Beranda</a>
 				</li>
-                <li><a href="/mobile/home">
+                <li><a href="register">
                     <i class="fa fa-user-plus" style="color:#ffff00;"></i> Register</a>
 				</li>
                 <li><a href="/mobile/home">
@@ -149,7 +149,7 @@
                     <i class="fa fa-gift" style="color:#ffff00;"></i> Promosi</a>
 				</li>
                 <li class="item-has-children">                    
-                    <a href="game.php">
+                    <a href="#">
                         <i class="fa fa-gamepad" style="color:#ffff00;"></i> Games</a>
                     <ul class="sub-menu box3">
 						<li>
@@ -205,5 +205,17 @@
 <!-- End of LiveChat code -->
 
     <script src="../../desktop/assets/fontawesome-free-5.14.0-web/js/all.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../../mobile/assets/lobibox-master/dist/js/lobibox.js"></script>
+	<script type="text/javascript">
+	
+		
+			function showLoading(){	
+				$("#loadingShow").css("display", "flex");
+			}
+			
+			function closeLoading(){
+				$("#loadingShow").css("display", "none");
+			}
+	</script>
 </body>
 </html>

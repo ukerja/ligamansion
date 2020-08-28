@@ -716,15 +716,15 @@ background: url(../../images/iconcock-off.svg) no-repeat center -7px;background-
     background: #00d71e;
     background: -moz-linear-gradient(top, #00d71e 0%, #008212 100%);
     background: -webkit-linear-gradient(top, #00d71e 0%,#008212 100%);
-    background: linear-gradient(to bottom, #00d71e 0%,#008212 100%);
+    background: linear-gradient(to bottom, #ffff00 0%, #adad07 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d71e', endColorstr='#008212',GradientType=0 );
-    border-bottom: 1px solid #01c21c;
+    /* border-bottom: 1px solid #01c21c; */
 }
 .contactmain ul li .btn-style-one.orange:hover {
     background: #008212;
     background: -moz-linear-gradient(top, #008212 0%, #00d71e 100%);
     background: -webkit-linear-gradient(top, #008212 0%,#00d71e 100%);
-    background: linear-gradient(to bottom, #008212 0%,#00d71e 100%);
+    background: linear-gradient(to bottom, #bdbd13 0%, #878708 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008212', endColorstr='#00d71e',GradientType=0 );
 }
 .contactmain ul li td {padding: 5px 0px;}
@@ -2695,3 +2695,44 @@ button.clickhere_loadgames2 {
 .menubar_afterlogin_balance.no-active-bonus .balance_lock{
     display: none;
 }
+.is-Invalid {
+    border: 1px solid red !important;
+}
+
+.loading_div{
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999999;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    opacity: 0.5;
+	display: none;
+}
+
+.boxLoading{
+	position: fixed;
+	padding-top: 130px;
+}
+
+@keyframes spinner-border {
+      to { transform: rotate(360deg); }
+    } 
+    .spinner-border{
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: text-bottom;
+        border: .25em solid currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner-border .75s linear infinite;
+        animation: spinner-border .75s linear infinite;
+    }
+    .spinner-border-sm{
+        height: 1rem;
+        border-width: .2em;
+    }

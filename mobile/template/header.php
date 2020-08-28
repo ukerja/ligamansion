@@ -28,6 +28,7 @@
     <link href="../resources/css/jquery.range.css" rel="stylesheet" />
     <link rel="stylesheet" href="../resources/assets/owl.carousel.min.css">
     <link href="../resources/css/mobile/main.css" rel="stylesheet" type="text/css">
+    <link href="../../mobile/assets/lobibox-master/dist/css/lobibox.css" rel="stylesheet" type="text/css">
 
     <script src="../resources/js/jquery.min.js"></script>
     <script src="../resources/js/bootstrap.min.js" type="text/javascript"></script>
@@ -100,6 +101,14 @@
 </head>
 <body>
 
+<div class="loading_div" id="loadingShow">
+	<div class="spinner-border text-warning" role="status" style="width:6rem; height:6rem;">
+	  <span class="sr-only">Loading...</span>
+	</div>
+	<div class="boxLoading">
+		<span style="font-size: 16px;font-weight: bold;color: black;">Loading...</span>
+	</div>
+</div>
     <div id="myModal" class="modal fade mainModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

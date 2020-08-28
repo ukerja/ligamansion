@@ -144,10 +144,10 @@
 										</div>
 									</div>
 									<div class="registermain_right3">
-										With click REGISTER buttons, I mentioned that i was above 18 years and have read and approved terms &amp; condition of FORZA88.
+										With click REGISTER buttons, I mentioned that i was above 18 years and have read and approved terms &amp; condition of LIGAMANSION.
 									</div>
 									<div class="registermain_right3" style="text-align: center;">
-										<a href="javascript:void(0)" onclick="window.openCenteredWindow('/desktop/terms-of-use','windowTNCPage')">
+										<a href="javascript:void(0)">
 											TERMS AND CONDITIONS
 										</a>
 									</div>

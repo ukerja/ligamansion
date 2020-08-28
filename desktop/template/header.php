@@ -7,9 +7,9 @@
 
     <meta name="viewport" content="initial-scale=0.30">
 
-    <title>FORZA88</title>
+    <title>Ligamansion</title>
 
-    <meta name="description" content="FORZA88 memberikan bonus terbaik disetiap game" />
+    <meta name="description" content="Ligamansion memberikan bonus terbaik disetiap game" />
     <meta name="theme-color" content="Red" />
     <meta name="language" content="id-ID" />
     <meta name="categories" content="website" />
