@@ -48,7 +48,7 @@
                         </p>
                     </a></li>
                 
-            <li class="navigation7"><a href="#"><span class="imageshpae"></span>
+            <li class="navigation7"><a href="promosi.php"><span class="imageshpae"></span>
                     <p>
                         Promosi
                     </p>

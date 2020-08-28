@@ -242,7 +242,153 @@ a.register_login_right {
 .jackpot_currency {
     color: #fff;
 }
+/*====================== Sp Sports =========================*/
 
+
+.sbsports {
+    position: relative;
+    padding: 15px 0px 30px 0px;
+    background: url(../../images/desktop/sbsports-bg.jpg) no-repeat center top #010101;
+    background-size: 100%;
+}
+
+.sbsports_tabbing {
+    border: 1px solid #0e0e0e;
+    padding: 15px;
+    background-color: #151515;
+}
+.sbsports_tabbing1{display:block; text-align:center; padding:10px 0px 0px 0px;}
+.sbsports_tabbing1 ul { margin:0px; padding:0px; float:left; width:100%; text-align:center;}
+.sbsports_tabbing1 ul li { display:inline-block; margin:10px 0.5%;width:100%;}
+
+
+.sbsports_tabbing1 ul li.imagesec{ position:relative;}
+.sbsports_tabbing1 ul li.imagesec img {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid #3c3c3c;
+}
+.sbsports_tabbing1 ul li.imagesec:hover img {
+    border: 2px solid #ffff00;
+}
+    .sbsports_tabbing1 ul li.imagesec a.bettingnow {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 40px;
+        margin: 0 auto;
+        width: auto;
+        font-size: 15px;
+        color: #fff;
+        font-family: 'arial_3';
+        padding: 10px 30px;
+        display: inline-block;
+        background: #777777;
+        background: -moz-linear-gradient(top, #777777 0%, #373737 100%);
+        background: -webkit-linear-gradient(top, #777777 0%, #373737 100%);
+        background: linear-gradient(to bottom, #777777 0%, #373737 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#373737', GradientType=0);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        max-width: 200px;
+        border: 0;
+        font-size: 15px;
+    }
+    .sbsports_tabbing1 ul li.imagesec:hover a.bettingnow {
+        background: #090909;
+        box-shadow: 0px 0px 20px 0px #ffff00;
+        border: 2px solid #ffff00;
+        color: #ffff00;
+    }
+.sbsports_tabbing1 ul li.imagesec.active a.bettingnow{border:1px solid #ff9600;
+background: #f39b05; /* Old browsers */
+background: -moz-linear-gradient(top,  #f39b05 0%, #dc8201 55%, #d47a00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f39b05 0%,#dc8201 55%,#d47a00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f39b05 0%,#dc8201 55%,#d47a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f39b05', endColorstr='#d47a00',GradientType=0 ); /* IE6-9 */
+}
+.sbsports_tabbing1 ul li.imagesec.active img {border:2px solid #ff9600;}
+.sbsports_tabbing2{ display:block; text-align:center; padding:10px 0px 0px 0px;}
+a.livestreaming {
+    border: 2px solid #ffff00;
+    border-radius: 25px;
+    color: #ffff00;
+    display: inline-block;
+    padding: 4px 20px;
+    background: transparent;
+}
+a.livestreaming:hover {
+    border: 2px solid #ffff00;
+    color: #000;
+    background-color: #ffff00;
+}
+
+.sbsports_btmsection {
+    background: #0b0b0b;
+    padding: 10px;
+    margin: 10px 0px;
+    float: left;
+    width: 100%;
+}
+.sbsports_btmsection1{float:left; width:67%; border:1px solid #131313; background:#000;}
+.sbsports_btmsection2 {
+    float: right;
+    width: 32%;
+    max-width: 360px;
+    color: #fff;
+    font-size: 12px;
+}
+.sbsports_btmsection2_sub1{float:left; width:100%; word-break: break-all; line-height:18px;}
+.sbsports_btmsection2_sub1 table tr:first-child td.hot-match-row{border-bottom:6px solid transparent!important;}
+.sbsports_btmsection2_sub2{float:left; width:100%;}
+.sbsports_btmsection2_sub3{float:left; width:100%;}
+.sbsports_btmsection2_sub3 ul { margin:10px 0px 0px 0px; padding:0px; display:block; text-align:center;}
+.sbsports_btmsection2_sub3 ul li { display:inline-block; margin:2px;}
+.sbsports_btmsection2_content1 {
+    font-size: 27px;
+    color: #fff;
+}
+.sbsports_mainbg{ position:relative;
+background: url(../../images/desktop/bg2.jpg) no-repeat center center ; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.sbsports_btmsection1 .demo{ position:relative;}
+.sbsports_btmsection1 .demo select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #40027e url(../../images/desktop/selectarrow1.gif) no-repeat 99% center;
+    text-indent: 10px;
+    text-overflow: "";
+    color: #fff;
+    border: none;
+}
+.sbsports_btmsection1 .demo select.balck {background-color: #000;}
+.sbsports_btmsection1 .demo select.option3 {border-radius: 10px 0;}
+.sbsports_btmsection1 .demo .selct{box-shadow:none !important;}
+.sbsports_btmsection1 .demo .selct:focus{background:#dfdfdf url(../../images/desktop/selectarrow1.gif) no-repeat 99% center;border:none;}
+
+
+
+.footballicon{ position:absolute; left:10px; top:10px;}
+
+
+
+.hometeambox_teamname{ float:left; width:100%;}
+.hometeambox_teamname1{ float:left; width:40%; white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;}
+.hometeambox_teamname2 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: #ffff00;
+}
+.hometeambox_teamname3{ float:left; width:40%; white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;}
+.sports_platformboxdesign2_sub2 ul li td{ word-break: break-all;padding: 6px 5px;}
 /*====================== Hot Match =========================*/
 .hotmatch {
     position: relative;

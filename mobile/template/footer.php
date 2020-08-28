@@ -88,7 +88,7 @@
                         <div class="col-xs-12">
                             <div class="footer_menu" style="text-align: center;">
                                 <ul>
-                                    <li class='col-xs-3'><a href='/desktop/about-us' target='_blank'>Tentang FORZA88</a></li><li class='col-xs-3'><a href='/desktop/responsible-gaming' target='_blank'>Responsible Gambling</a></li><li class='col-xs-3'><a href='/desktop/faq' target='_blank'>Pusat Bantuan</a></li><li class='col-xs-3'><a href='/desktop/terms-of-use' target='_blank'>Syarat dan Ketentuan</a></li>
+                                    <li class='col-xs-3'><a href='../../mobile/menu/about-us' target='_blank'>Tentang FORZA88</a></li><li class='col-xs-3'><a href='../../mobile/menu/responsible-gaming' target='_blank'>Responsible Gambling</a></li><li class='col-xs-3'><a href='../../mobile/menu/faq' target='_blank'>Pusat Bantuan</a></li><li class='col-xs-3'><a href='../../mobile/menu/terms-of-use' target='_blank'>Syarat dan Ketentuan</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -141,11 +141,14 @@
                     <i class="fa fa-gift" style="color:#ffff00;"></i> Promosi</a>
 				</li>
                 <li class="item-has-children">                    
-                    <a href="#">
+                    <a href="game.php">
                         <i class="fa fa-gamepad" style="color:#ffff00;"></i> Games</a>
                     <ul class="sub-menu box3">
-                        <li><a href="#" onclick="changeLanguage('id')">Link ALT 1</a></li>
-						<li><a href="#" onclick="changeLanguage('en')">Link ALT 2</a></li>
+                         <a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
+                        <a class="dropdown-item" href="casino.php">CASINO</a>
+                        <a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
+                        <a class="dropdown-item" href="slot.php">SLOT</a>
+                        <a class="dropdown-item" href="tangkas.php">TANGKAS</a>
                     </ul>
                 </li>
                 <li class="item-has-children">                    
