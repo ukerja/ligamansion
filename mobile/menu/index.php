@@ -5,7 +5,7 @@
     <div class="panel-heading">
 
         <!-- Tabs -->
-        <ul class="nav panel-tabs">            
+        <!--<ul class="nav panel-tabs">            
                 <li class="navigation10"><a href="/mobile/sport" data-toggle="tab" onclick="location.href='/mobile/hotGame'"><span class="imageshpae"></span>
                     <p>
                         Hot Games
@@ -54,7 +54,7 @@
                     </p>
                 </a></li>
 
-        </ul>
+        </ul>-->
     </div>
 
 

@@ -144,11 +144,21 @@
                     <a href="game.php">
                         <i class="fa fa-gamepad" style="color:#ffff00;"></i> Games</a>
                     <ul class="sub-menu box3">
-                         <a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
-                        <a class="dropdown-item" href="casino.php">CASINO</a>
-                        <a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
-                        <a class="dropdown-item" href="slot.php">SLOT</a>
-                        <a class="dropdown-item" href="tangkas.php">TANGKAS</a>
+						<li>
+							<a class="dropdown-item" href="sportsbook">SPORTSBOOK</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="casino.php">CASINO</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="sabungayam.php">SABUNG AYAM</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="slot.php">SLOT</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="tangkas.php">TANGKAS</a>
+						</li>
                     </ul>
                 </li>
                 <li class="item-has-children">                    

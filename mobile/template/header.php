@@ -156,8 +156,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center mainlogo">
-                        <a href="/mobile/home">
-                            <img src="../resources/images/logo_mobile.png" alt="" />
+                        <a href="../menu">
+                            <img src="../../resources/images/desktop/ligamansion.png" style="width:85px;" alt="" />
                             
                         </a>
                     </div>
