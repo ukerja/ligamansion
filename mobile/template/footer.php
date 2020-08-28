@@ -185,7 +185,7 @@
 						<li><a href="#" onclick="http://ligaimpian.org/">Link ALT 2</a></li>
                     </ul>
                 </li>
-                <li><a href="/mobile/home">
+                <li><a href="livescore.php">
                     <i class="fa fa-futbol" style="color:#ffff00;"></i> Livescore</a>
 				</li>
                 
