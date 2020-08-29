@@ -35,18 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    
-                        
-                            
-                                <ul>
-                                    <li>
-										<img src="https://api2-fz8.tr8games.com/images/id_promo_102b4686-3997-4d8b-8d62-16865e0d95ec_1595848265573.jpg?1595848265573"alt style="padding-top: 20px;" />
-									</li>
-								</ul>
-                           
-                        
-
-                    
+					<img src="../../resources/images/desktop/iklan.jpg"alt style="padding-top: 20px;width:100%;height:200px;" />
                 </div>
             </div>
         </div>
