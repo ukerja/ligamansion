@@ -121,7 +121,6 @@
         </div>
     </div>
 
-    <form name="aspnetForm" method="post" action="./home" id="aspnetForm">
 <div>
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />

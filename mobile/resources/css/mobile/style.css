@@ -2736,3 +2736,66 @@ button.clickhere_loadgames2 {
         height: 1rem;
         border-width: .2em;
     }
+	
+	
+.BCA_BANK {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../../../resources/images/bank-icon.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+	height: 27px;
+	width:66px;
+}
+
+.MANDIRI_BANK {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../../../resources/images/bank-icon.png);
+    background-position: -66px 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+	height: 27px;
+	width:66px;
+}
+
+.BNI_BANK {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../../../resources/images/bank-icon.png);
+    background-position: -135px 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+	height: 29px;
+	width:66px;
+}
+
+.BRI_BANK {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../../../../resources/images/bank-icon.png);
+    background-position: -204px 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+	height: 29px;
+	width:78px;
+}
+
+.CIMB_BANK {    
+	/* position: absolute; */
+	/* background: url(../../images/bank/CIMB.png) 50% no-repeat; */
+    /* background-size: contain; */
+    /* width: 105px; */
+    /* height: 30px; */
+	
+	position: inline-block;
+	background: url(../../../../resources/images/bank/CIMB.png) 50% no-repeat;
+    background-size: contain;
+    width: 95px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+	margin-left: -15px;
+    margin-top: -4px;
+}

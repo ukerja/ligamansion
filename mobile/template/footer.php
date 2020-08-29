@@ -139,7 +139,7 @@
                 <li><a href="register">
                     <i class="fa fa-user-plus" style="color:#ffff00;"></i> Register</a>
 				</li>
-                <li><a href="/mobile/home">
+                <li><a href="deposit">
                     <i class="fa fa-hand-holding-usd" style="color:#ffff00;"></i> Deposit</a>
 				</li>
                 <li><a href="withdraw">
@@ -192,7 +192,6 @@
             </ul>
             <!-- cd-navigation -->
         </nav>
-    </form>
     
 
     <!-- Start of LiveChat (www.livechatinc.com) code -->
