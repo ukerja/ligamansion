@@ -30,7 +30,7 @@
     
 
 
-<!--=========================== MEGA Jackpot ===========================-->
+<!--=========================== AREA IKLAN ===========================-->
 <div class="mega_jackpot">
         <div class="container">
             <div class="row">
