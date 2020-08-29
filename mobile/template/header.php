@@ -34,6 +34,7 @@
     <script src="../resources/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../resources/assets/owl.carousel.js"></script>
     <script src="../resources/js/menu.js"></script>
+	<link rel="shortcut icon" href="../../resources/images/desktop/favicon.png">
 
     
 
@@ -165,7 +166,7 @@
                 <div class="row">
                     <div class="col-sm-12 text-center mainlogo">
                         <a href="../menu">
-                            <img src="../../resources/images/desktop/ligamansion.png" style="width:85px;" alt="" />
+                            <img src="../../resources/images/desktop/logo-ligamansion.png" style="width:155px;" alt="" />
                             
                         </a>
                     </div>
@@ -189,7 +190,26 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active"><img src="https://api2-fz8.tr8games.com/images/id_cbm_3045f459-f899-4ab1-93df-21297284e3b0_1596014218580.jpg?1596014218580" alt="Welcome to FORZA 88 5" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_466d27a6-3d1b-40fd-a3b7-30f687d42932_1595582929580.jpeg?1595582929580" alt="Welcome to FORZA88 7" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_05447c22-8b64-4419-9770-7ed553b58c54_1595850047480.jpg?1595850047480" alt="Welcome to FORZA 88 4" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_44a5b62d-c533-437c-978b-fc0808d877f6_1595272403963.png?1595272403963" alt="Welcome to FORZA 88 2" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_aae4dc69-c015-4660-8f21-1beb9d0926d8_1595272435870.png?1595272435870" alt="Welcome to FORZA88 1" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_b71c415f-24d7-4f0a-b206-70d1fea8ba1a_1598346950607.jpeg?1598346950607" alt="Welcome to FORZA88 8" /></div><div class="item "><img src="https://api2-fz8.tr8games.com/images/id_cbm_aa6670fa-05c8-46a8-85c2-3f427f20e4bc_1595845022593.jpg?1595845022593" alt="Welcome to FORZA88 6" /></div>
+            <div class="item active">
+				<img src="../../resources/images/desktop/slide1Mobile.jpg" alt="Welcome to FORZA 88 5" />
+			</div>
+			<div class="item ">
+				<img src="../../resources/images/desktop/slide2Mobile.jpeg" alt="Welcome to FORZA88 7" />
+			</div><div class="item ">
+				<img src="../../resources/images/desktop/slide3Mobile.jpeg" alt="Welcome to FORZA 88 4" />
+			</div>
+			<div class="item ">
+				<img src="../../resources/images/desktop/slide4Mobile.png" alt="Welcome to FORZA 88 2" />
+			</div>
+			<div class="item ">
+				<img src="../../resources/images/desktop/slide5Mobile.png" alt="Welcome to FORZA88 1" />
+			</div>
+			<div class="item ">
+				<img src="../../resources/images/desktop/slide6Mobile.jpeg" alt="Welcome to FORZA88 8" />
+			</div>
+			<div class="item ">
+				<img src="../../resources/images/desktop/slide7Mobile.jpg" alt="Welcome to FORZA88 6" />
+			</div>
         </div>
     </div>
 </div>

@@ -14,6 +14,7 @@
     <meta name="language" content="id-ID" />
     <meta name="categories" content="website" />
     <meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="shortcut icon" href="../../resources/images/desktop/favicon.png">
 
     <!--<link rel="shortcut icon" type="image/x-icon" href="https://api2-fz8.tr8games.com/images/favicon_96c00afb-2339-4071-aabc-5685e6905423_1597744944117.png?1597744944117" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">-->
@@ -88,8 +89,8 @@
 </div>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="">	
         <div class="container">
-        <a class="navbar-brand logo-logo" href="index" style="padding-top:15px;">
-            <img src="../../resources/images/desktop/logoligamansion.png" alt="" style='width:80%;max-width:240px;' />
+        <a class="navbar-brand logo-logo" href="index" style="padding-top:5px;">
+            <img src="../../resources/images/desktop/logo-ligamansion.png" alt="" style='width:80%;max-width:240px;' />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

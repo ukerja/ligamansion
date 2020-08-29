@@ -15,7 +15,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../../resources/images/desktop/slide1.jpg" title="Welcome to Ligamansion" alt="Welcome to Ligamansion" />
+                    <img src="../../resources/images/desktop/slideLigamandion1.jpg" title="Welcome to Ligamansion" alt="Welcome to Ligamansion" />
                 </div>
                 <div class="carousel-item">
                     <img src="../../resources/images/desktop/slide2.jpg" title="Welcome to Ligamansion" alt="Welcome to Ligamansion" />
