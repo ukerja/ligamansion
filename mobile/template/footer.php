@@ -85,7 +85,7 @@
                         <div class="col-xs-12">
                             <div class="footer_menu" style="text-align: center;">
                                 <ul>
-                                    <li class='col-xs-3'><a href='../../mobile/menu/about-us' target='_blank'>Tentang FORZA88</a></li><li class='col-xs-3'><a href='../../mobile/menu/responsible-gaming' target='_blank'>Responsible Gambling</a></li><li class='col-xs-3'><a href='../../mobile/menu/faq' target='_blank'>Pusat Bantuan</a></li><li class='col-xs-3'><a href='../../mobile/menu/terms-of-use' target='_blank'>Syarat dan Ketentuan</a></li>
+                                    <li class='col-xs-3'><a href='../../mobile/menu/about-us' target='_blank'>Tentang LIGAMANSION</a></li><li class='col-xs-3'><a href='../../mobile/menu/responsible-gaming' target='_blank'>Responsible Gambling</a></li><li class='col-xs-3'><a href='../../mobile/menu/faq' target='_blank'>Pusat Bantuan</a></li><li class='col-xs-3'><a href='../../mobile/menu/terms-of-use' target='_blank'>Syarat dan Ketentuan</a></li>
                                 </ul>
                             </div>
                         </div>
