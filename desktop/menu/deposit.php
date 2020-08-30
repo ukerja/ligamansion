@@ -98,7 +98,7 @@
 											<div class="registermain_right2sub4">
 												<div class="row">
 													<div class="col-md-10 col-9" style="padding-right:0;">
-														<input value="0" maxlength="11" oncopy="return false;" onpaste="return false" name="_JumlahDeposit" type="text" maxlength="20" id="_JumlahDeposit" class="register_inputform" placeholder="Jumlah Deposit" autocomplete="off">
+														<input value="0" maxlength="15" oncopy="return false;" onpaste="return false" name="_JumlahDeposit" type="text" maxlength="20" id="_JumlahDeposit" class="register_inputform" placeholder="Jumlah Deposit" autocomplete="off">
 														<!-- <button type="button" onclick="CopyValue()"><i class="fa fa-copy"></i></button> !-->
 													</div>
 													<div class="col-md-2 col-3" style="padding-left:0;">

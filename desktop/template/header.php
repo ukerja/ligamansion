@@ -87,7 +87,7 @@
 		<span style="font-size: 16px;font-weight: bold;color: black;">Loading...</span>
 	</div>
 </div>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="">	
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark" style="position:fixed;width:100%;z-index:190000;">	
         <div class="container">
         <a class="navbar-brand logo-logo" href="index" style="padding-top:5px;">
             <img src="../../resources/images/desktop/logo-ligamansion.png" alt="" style='width:80%;max-width:240px;' />
@@ -171,4 +171,4 @@
         </div>
 		</div>
     </nav>
-	<div style="padding-top:50px;">
+	<div style="padding-top:150px;">

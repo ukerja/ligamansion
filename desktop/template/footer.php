@@ -676,7 +676,7 @@
     <link rel="stylesheet" href="../../resources/css/jquery.scrolling-tabs.css">
     <script src="../../resources/js/jquery.scrolling-tabs.js"></script>
 
-    <script>
+    <!--<script>
         (function ($) {
             'use strict';
 
@@ -710,7 +710,7 @@
         }(jQuery));
 
 
-    </script>
+    </script>-->
 
 
 
@@ -749,7 +749,7 @@
 
 
     <script type="text/javascript" src="../../resources/js/jquery.easy-ticker.js"></script>
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         var isPopup = false;
 
         $(document).ready(function () {
@@ -776,7 +776,7 @@
                 });
             }
         });
-    </script>
+    </script>-->
 
     <script>
 
@@ -934,7 +934,7 @@
         if (element.attr('href').indexOf(current) !== -1) {
           element.parents('.nav-item').last().addClass('active');
           if (element.parents('.dropdown-menu').length) {
-            element.closest('.collapse').addClass('show');
+            // element.closest('.collapse').addClass('show');
             element.addClass('active');
           }
           if (element.parents('.dropdown-item').length) {
