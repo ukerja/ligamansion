@@ -96,7 +96,7 @@
             <section class="upper_footer2">
                 <div class="container">
                     <div>
-                        FORZA88 
+                        LIGAMANSION 
                     </div>
                 </div>
             </section>           
@@ -105,10 +105,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <img src="../resources/images/footerlogo.png" alt="" />
-                            <p>
-                                ©2020 FORZA88 menawarkan berbagai macam provider terbaik pilihan dan di dukung  pelayanan customer service profesional 24/7 siap melayani anda.<br /><br />
-                            </p>
+						
+								<ul>
+                                      <li><a href="#" class="footerlogoimageshpae">&nbsp;</a></li>
+                                      <li><a href="#" class="footerlogoimageshpae2">&nbsp;</a></li>
+								</ul>
+                            
+								<p style=" padding-top: 15px;">
+                                ©2020 LIGAMANSION menawarkan berbagai macam provider terbaik pilihan dan di dukung  pelayanan customer service profesional 24/7 siap melayani anda.<br /><br />
+								</p>
                         </div>
                     </div>
                 </div>
