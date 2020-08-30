@@ -2799,3 +2799,9 @@ button.clickhere_loadgames2 {
 	margin-left: -15px;
     margin-top: -4px;
 }
+
+.footerlogoimageshpae{ height: 32px; width:144px; display:inline-block; background: url(../../images/sprite2.png) no-repeat center;background-position: 0px -0px;}
+.footerlogoimageshpae:hover{background-position: -160px 0px;}
+
+.footerlogoimageshpae2{ height: 30px; width:170px; display:inline-block; background: url(../../images/sprite2.png) no-repeat center;background-position: 0px -50px;}
+.footerlogoimageshpae2:hover{background-position: -177px -50px;}
